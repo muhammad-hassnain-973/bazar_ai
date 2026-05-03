@@ -39,9 +39,7 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-"""
-Replace theme CSS with theme-aware styling using Streamlit's theme.base option.
-"""
+
 try:
     theme_base = st.get_option("theme.base")
 except Exception:
