@@ -34,7 +34,7 @@ except Exception:
 
 st.set_page_config(
     page_title="BazaarAI — AI Data Analyst",
-    page_icon="🇵🇰",
+    page_icon="PK",
     layout="wide",
     initial_sidebar_state="expanded"
 )
@@ -110,7 +110,7 @@ if st.session_state.api_key_valid is None:
     st.session_state.api_key_error = error
 
 if check_session_expiry():
-    st.warning("⏱️ Session expired. Please upload your data again.")
+    st.warning("[Session expired] Please upload your data again.")
     st.rerun()
 
 # ════════════════════════════════════════════════════════════════════════════
@@ -119,13 +119,13 @@ if check_session_expiry():
 
 with st.sidebar:
     st.image("https://flagcdn.com/w80/pk.png", width=50)
-    st.title("🇵🇰 BazaarAI")
+    st.title("BazaarAI")
     st.caption("**Agentic Sales Data Analyst**\nfor Pakistani Businesses")
     st.divider()
 
     # API Key Status
     if not st.session_state.api_key_valid:
-        st.error("⚠️ API Key Not Configured")
+        st.error("[WARNING] API Key Not Configured")
         with st.expander("Setup Instructions", expanded=False):
             st.markdown("""
 **Streamlit Cloud Setup:**
@@ -144,9 +144,9 @@ streamlit run app_new.py
 **Error:** Invalid or missing GROQ_API_KEY
             """)
     else:
-        st.success("✅ API Connected")
+        st.success("[OK] API Connected")
 
-    st.subheader("📤 Upload Data")
+    st.subheader("Upload Data")
     language = st.selectbox("Language / Zaban", ["English", "Roman Urdu"], key="language")
 
     uploaded_file = st.file_uploader(
@@ -164,7 +164,7 @@ streamlit run app_new.py
     with col2:
         analyze_disabled = uploaded_file is None or not st.session_state.api_key_valid
         analyze_btn = st.button(
-            "🔍 Analyze",
+            "[Search] Analyze",
             type="primary",
             use_container_width=True,
             disabled=analyze_disabled,
@@ -176,12 +176,12 @@ streamlit run app_new.py
         info = get_session_info()
         if info:
             st.caption(f"**Session:** {info}")
-        if st.button("🔄 Reset / New File", use_container_width=True):
+        if st.button("[Refresh] Reset / New File", use_container_width=True):
             reset_session()
             st.rerun()
 
     st.divider()
-    st.caption("**Powered by:**\nGroq LLaMA 3.3 + FastEmbed + FAISS")
+    st.caption("**Powered by:**\nGroq LLaMA 3.3, FastEmbed, FAISS")
 
     # Deployment diagnostics (help debug Streamlit Cloud vs local differences)
     with st.expander("Deployment Diagnostics", expanded=False):
@@ -230,9 +230,9 @@ streamlit run app_new.py
 
 if analyze_btn and uploaded_file is not None:
     if not st.session_state.api_key_valid:
-        st.error("🔴 Cannot proceed: API Key not configured. See sidebar for setup instructions.")
+        st.error("[ERROR] Cannot proceed: API Key not configured. See sidebar for setup instructions.")
     else:
-        with st.spinner("🔄 Analyzing your data..."):
+        with st.spinner("[...] Analyzing your data..."):
             try:
                 # Data ingestion
                 df, col_types, auto_map = clean_dataframe(uploaded_file)
@@ -278,7 +278,7 @@ if analyze_btn and uploaded_file is not None:
                                 continue
                         if best_col and best_ratio >= 0.5:
                             column_map["date"] = best_col
-                            st.info(f"Auto-detected date column: **{best_col}** (parsed {best_ratio*100:.0f}% values)")
+                            st.info(f"[DATE] Auto-detected date column: **{best_col}** (parsed {best_ratio*100:.0f}% values)")
                     except Exception:
                         pass
 
@@ -308,7 +308,7 @@ if analyze_btn and uploaded_file is not None:
                 st.session_state.chunk_texts = chunk_texts
 
                 st.session_state.analysis_done = True
-                st.success(f"✅ Analysis complete! **{len(df):,} records** processed.")
+                st.success(f"[OK] Analysis complete! **{len(df):,} records** processed.")
                 
                 # Show date detection / parsing diagnostics
                 if column_map.get("date"):
@@ -326,18 +326,18 @@ if analyze_btn and uploaded_file is not None:
                         pass
 
                     if len(monthly) > 0:
-                        st.info(f"📅 Date column detected: **{column_map['date']}** — {len(monthly)} months of data available.")
+                        st.info(f"[DATE] Column detected: **{column_map['date']}** — {len(monthly)} months of data available.")
                     else:
                         if parsed_count > 0:
                             st.warning(
-                                f"⚠️ Date column **{column_map['date']}** parsed {parsed_count} values (range: {parsed_min} → {parsed_max}) "
+                                f"[WARNING] Column **{column_map['date']}** parsed {parsed_count} values (range: {parsed_min} → {parsed_max}) "
                                 "but monthly aggregation produced no results. Check date granularity or column mapping."
                             )
                         else:
-                            st.warning("⏰ No parsable dates found in the detected date column. Try selecting a different column or reformatting dates.")
+                            st.warning("[TIME] No parsable dates found in the detected date column. Try selecting a different column or reformatting dates.")
                             st.info("Tip: common formats — YYYY-MM-DD, DD/MM/YYYY. For Excel exports, ensure dates are real dates, not text.")
                 else:
-                    st.warning("⏰ No date column detected. Trend analysis will be unavailable.")
+                    st.warning("[TIME] No date column detected. Trend analysis will be unavailable.")
 
                 # Show a small parsing preview for debugging
                 try:
@@ -352,7 +352,7 @@ if analyze_btn and uploaded_file is not None:
                     pass
 
             except Exception as e:
-                st.error(f"❌ Error processing file: {str(e)}")
+                st.error(f"[ERROR] Error processing file: {str(e)}")
                 import traceback
                 st.text(traceback.format_exc()[:500])
 
@@ -362,7 +362,7 @@ if analyze_btn and uploaded_file is not None:
 
 if st.session_state.get("df") is not None and not st.session_state.get("analysis_done"):
     df = st.session_state.df
-    st.subheader("🔧 Column Mapping")
+    st.subheader("Column Mapping")
     st.caption("Review auto-detected column assignments (you can adjust if needed)")
     
     col_options = ["None"] + list(df.columns)
@@ -371,21 +371,21 @@ if st.session_state.get("df") is not None and not st.session_state.get("analysis
     col1, col2, col3, col4, col5 = st.columns(5)
     
     with col1:
-        date_sel = st.selectbox("📅 Date", col_options,
+        date_sel = st.selectbox("[DATE] Date", col_options,
             index=col_options.index(current_map.get("date", "None")) if current_map.get("date") in col_options else 0,
             help="Required for trend analysis")
     with col2:
-        rev_sel = st.selectbox("💰 Revenue", col_options,
+        rev_sel = st.selectbox("[CASH] Revenue", col_options,
             index=col_options.index(current_map.get("revenue", "None")) if current_map.get("revenue") in col_options else 0,
             help="Primary metric")
     with col3:
-        product_sel = st.selectbox("📦 Product", col_options,
+        product_sel = st.selectbox("[BOX] Product", col_options,
             index=col_options.index(current_map.get("product", "None")) if current_map.get("product") in col_options else 0)
     with col4:
-        region_sel = st.selectbox("🗺️ Region", col_options,
+        region_sel = st.selectbox("[MAP] Region", col_options,
             index=col_options.index(current_map.get("region", "None")) if current_map.get("region") in col_options else 0)
     with col5:
-        qty_sel = st.selectbox("📊 Quantity", col_options,
+        qty_sel = st.selectbox("[CHART] Quantity", col_options,
             index=col_options.index(current_map.get("quantity", "None")) if current_map.get("quantity") in col_options else 0)
 
     new_map = {}
@@ -398,7 +398,7 @@ if st.session_state.get("df") is not None and not st.session_state.get("analysis
 
     # Guidance for date column
     if date_sel == "None":
-        st.info("💡 **Tip:** Select a date column to unlock trend analysis, growth rates, and time-based insights.")
+        st.info("[INFO] Select a date column to unlock trend analysis, growth rates, and time-based insights.")
 
 # ════════════════════════════════════════════════════════════════════════════
 # MAIN DASHBOARD
@@ -416,7 +416,7 @@ if st.session_state.get("analysis_done"):
     regions = st.session_state.get("regions", pd.DataFrame())
 
     tab_overview, tab_trends, tab_products, tab_regions, tab_summary, tab_chat = st.tabs([
-        "📊 Overview", "📈 Trends", "📦 Products", "🗺️ Regions", "🎯 Summary", "💬 Chat"
+        "[CHART] Overview", "[TRENDS] Trends", "[BOX] Products", "[MAP] Regions", "[TARGET] Summary", "[CHAT] Chat"
     ])
 
     # ── OVERVIEW TAB ────────────────────────────────────────────────────
@@ -426,18 +426,18 @@ if st.session_state.get("analysis_done"):
         kpi_cols = st.columns(4)
         kpi_items = []
         if kpis.get("total_revenue"):
-            kpi_items.append(("💰 Total Revenue", f"PKR {kpis['total_revenue']:,.0f}", None))
+            kpi_items.append(("[CASH] Total Revenue", f"PKR {kpis['total_revenue']:,.0f}", None))
         if kpis.get("avg_revenue"):
-            kpi_items.append(("📊 Avg Transaction", f"PKR {kpis['avg_revenue']:,.0f}", None))
+            kpi_items.append(("[CHART] Avg Transaction", f"PKR {kpis['avg_revenue']:,.0f}", None))
         if kpis.get("mom_growth") is not None:
             delta = f"{kpis['mom_growth']:+.1f}%"
-            kpi_items.append(("📈 MoM Growth", delta, kpis['mom_growth']))
+            kpi_items.append(("[UP] MoM Growth", delta, kpis['mom_growth']))
         if kpis.get("total_products"):
-            kpi_items.append(("📦 Products", str(int(kpis["total_products"])), None))
+            kpi_items.append(("[BOX] Products", str(int(kpis["total_products"])), None))
         if kpis.get("total_regions"):
-            kpi_items.append(("🗺️ Regions", str(int(kpis["total_regions"])), None))
+            kpi_items.append(("[MAP] Regions", str(int(kpis["total_regions"])), None))
         if kpis.get("total_quantity"):
-            kpi_items.append(("📊 Units Sold", f"{kpis['total_quantity']:,.0f}", None))
+            kpi_items.append(("[CHART] Units Sold", f"{kpis['total_quantity']:,.0f}", None))
 
         for i, item in enumerate(kpi_items[:4]):
             with kpi_cols[i % 4]:
@@ -456,7 +456,7 @@ if st.session_state.get("analysis_done"):
 
         # Alerts
         if alerts:
-            st.subheader("🚨 Smart Alerts")
+            st.subheader("[ALERT] Smart Alerts")
             for alert in alerts:
                 if alert["type"] == "danger":
                     st.error(f"{alert['icon']} **{alert['title']}** — {alert['message']}")
@@ -465,7 +465,7 @@ if st.session_state.get("analysis_done"):
                 else:
                     st.success(f"{alert['icon']} **{alert['title']}** — {alert['message']}")
         else:
-            st.subheader("🚨 Smart Alerts")
+            st.subheader("[ALERT] Smart Alerts")
             st.info("No alerts detected.")
             # Diagnostics to help understand why no alerts were raised
             diag = []
@@ -481,25 +481,25 @@ if st.session_state.get("analysis_done"):
             if diag:
                 st.caption(" | ".join(diag))
 
-        st.subheader("📋 Data Preview")
+        st.subheader("[LIST] Data Preview")
         st.dataframe(df.head(15), use_container_width=True, height=400)
-        st.caption(f"📊 {len(df):,} total rows | {len(df.columns)} columns")
+        st.caption(f"[CHART] {len(df):,} total rows | {len(df.columns)} columns")
 
     # ── TRENDS TAB ──────────────────────────────────────────────────────
     with tab_trends:
-        st.subheader("📈 Revenue Trends")
+        st.subheader("[UP] Revenue Trends")
 
         if not monthly.empty:
             fig_trend = monthly_trend_chart(monthly)
             if fig_trend:
                 st.plotly_chart(fig_trend, use_container_width=True, key="trend_main")
-                st.caption(f"✅ {len(monthly)} months of data available")
+                st.caption(f"[OK] {len(monthly)} months of data available")
         else:
-            st.info("💡 No date column or insufficient date data. " + 
+            st.info("[INFO] No date column or insufficient date data. "
                    "Please select a valid date column in the Column Mapping section.")
 
         if not growth.empty:
-            st.subheader("📊 Month-over-Month Growth")
+            st.subheader("[CHART] Month-over-Month Growth")
             fig_growth = growth_rate_chart(growth)
             if fig_growth:
                 st.plotly_chart(fig_growth, use_container_width=True, key="growth_main")
@@ -507,33 +507,33 @@ if st.session_state.get("analysis_done"):
             col1, col2, col3 = st.columns(3)
             with col1:
                 avg_growth = growth["Growth_%"].mean()
-                st.metric("📈 Average Growth", f"{avg_growth:+.1f}%")
+                st.metric("[UP] Average Growth", f"{avg_growth:+.1f}%")
             with col2:
                 best = growth.loc[growth["Growth_%"].idxmax()]
-                st.metric("🏆 Best Month", best["Month"], f"{best['Growth_%']:+.1f}%")
+                st.metric("[STAR] Best Month", best["Month"], f"{best['Growth_%']:+.1f}%")
             with col3:
                 worst = growth.loc[growth["Growth_%"].idxmin()]
-                st.metric("📉 Worst Month", worst["Month"], f"{worst['Growth_%']:+.1f}%")
+                st.metric("[DOWN] Worst Month", worst["Month"], f"{worst['Growth_%']:+.1f}%")
 
-            with st.expander("📊 View Growth Data"):
+            with st.expander("[CHART] View Growth Data"):
                 st.dataframe(growth, use_container_width=True)
 
     # ── PRODUCTS TAB ────────────────────────────────────────────────────
     with tab_products:
-        st.subheader("📦 Product Performance")
+        st.subheader("[BOX] Product Performance")
 
         if not top_products.empty:
             col_left, col_right = st.columns(2)
             with col_left:
-                fig_top = top_products_chart(top_products, "🏆 Top 5 Products")
+                fig_top = top_products_chart(top_products, "[STAR] Top 5 Products")
                 if fig_top:
                     st.plotly_chart(fig_top, use_container_width=True, key="top_products")
             with col_right:
-                fig_bottom = top_products_chart(bottom_products, "⚠️ Bottom 5 Products")
+                fig_bottom = top_products_chart(bottom_products, "[WARNING] Bottom 5 Products")
                 if fig_bottom:
                     st.plotly_chart(fig_bottom, use_container_width=True, key="bottom_products")
 
-            st.subheader("📋 Full Product Breakdown")
+            st.subheader("[LIST] Full Product Breakdown")
             product_col = column_map.get("product")
             rev_col = column_map.get("revenue")
             if product_col and rev_col:
@@ -543,11 +543,11 @@ if st.session_state.get("analysis_done"):
                 full_product = full_product.sort_values("Total Revenue", ascending=False)
                 st.dataframe(full_product, use_container_width=True, height=400)
         else:
-            st.info("💡 No product column detected. Please select a Product column in Column Mapping.")
+            st.info("[INFO] No product column detected. Please select a Product column in Column Mapping.")
 
     # ── REGIONS TAB ─────────────────────────────────────────────────────
     with tab_regions:
-        st.subheader("🗺️ Regional Performance")
+        st.subheader("[MAP] Regional Performance")
 
         if not regions.empty:
             col_left, col_right = st.columns(2)
@@ -560,11 +560,11 @@ if st.session_state.get("analysis_done"):
                 if fig_bar:
                     st.plotly_chart(fig_bar, use_container_width=True, key="region_bar")
 
-            st.subheader("📊 Region Details")
+            st.subheader("[CHART] Region Details")
             st.dataframe(regions, use_container_width=True, height=400)
 
             if not monthly.empty and column_map.get("region") and column_map.get("date") and column_map.get("revenue"):
-                st.subheader("📈 Regional Monthly Trends")
+                st.subheader("[UP] Regional Monthly Trends")
                 region_col = column_map["region"]
                 date_col = column_map["date"]
                 rev_col = column_map["revenue"]
@@ -599,22 +599,22 @@ if st.session_state.get("analysis_done"):
                 fig_rtrend.update_traces(line=dict(width=2.5), marker=dict(size=6))
                 st.plotly_chart(fig_rtrend, use_container_width=True, key="region_trends")
         else:
-            st.info("💡 No region column detected. Please select a Region column in Column Mapping.")
+            st.info("[INFO] No region column detected. Please select a Region column in Column Mapping.")
 
     # ── SUMMARY TAB ─────────────────────────────────────────────────────
     with tab_summary:
-        st.subheader("🎯 AI Executive Summary")
-        st.caption("**Powered by Groq LLaMA** — Situation → Complication → Resolution")
+        st.subheader("[TARGET] AI Executive Summary")
+        st.caption("**Powered by Groq LLaMA** — Situation, Complication, Resolution")
 
         if not st.session_state.api_key_valid:
-            st.error("❌ API Key not configured. See sidebar for setup instructions.")
+            st.error("[ERROR] API Key not configured. See sidebar for setup instructions.")
         else:
             def on_summary_click():
                 """Callback to keep Summary tab active"""
                 st.session_state.selected_tab = 4
 
-            if st.button("🚀 Generate Executive Summary", type="primary", on_click=on_summary_click):
-                with st.spinner("🤖 AI analyst generating summary..."):
+            if st.button("[LAUNCH] Generate Executive Summary", type="primary", on_click=on_summary_click):
+                with st.spinner("[...] AI analyst generating summary..."):
                     try:
                         summary = generate_executive_summary(
                             kpis, alerts, monthly, top_products, regions,
@@ -623,23 +623,23 @@ if st.session_state.get("analysis_done"):
                         st.session_state.executive_summary = summary
                         st.session_state.selected_tab = 4  # Ensure Summary tab stays active
                     except Exception as e:
-                        st.error(f"❌ Error generating summary: {str(e)}")
+                        st.error(f"[ERROR] Error generating summary: {str(e)}")
 
         if st.session_state.get("executive_summary"):
             st.markdown(st.session_state.executive_summary)
             st.divider()
 
-            st.subheader("💡 Story Feed")
+            st.subheader("[INFO] Story Feed")
             story_cols = st.columns(2)
 
             with story_cols[0]:
-                st.markdown("#### 💰 Revenue Performance")
+                st.markdown("#### [CASH] Revenue Performance")
                 if kpis.get("total_revenue"):
                     rev = kpis["total_revenue"]
                     st.info(f"Total revenue: **PKR {rev:,.0f}**")
                 if kpis.get("mom_growth") is not None:
                     g = kpis["mom_growth"]
-                    icon = "📈" if g > 0 else "📉"
+                    icon = "[UP]" if g > 0 else "[DOWN]"
                     msg = f"{icon} Month-over-month: **{g:+.1f}%**"
                     if g > 0:
                         st.success(msg)
@@ -651,7 +651,7 @@ if st.session_state.get("analysis_done"):
                         st.plotly_chart(fig, use_container_width=True, key="trend_story")
 
             with story_cols[1]:
-                st.markdown("#### 🏆 Product & Region Insights")
+                st.markdown("#### [STAR] Product & Region Insights")
                 if not top_products.empty:
                     best = top_products.iloc[0]
                     st.success(f"**{best['Product']}** — PKR {best['Revenue']:,.0f}")
@@ -665,10 +665,10 @@ if st.session_state.get("analysis_done"):
 
     # ── CHAT TAB ────────────────────────────────────────────────────────
     with tab_chat:
-        st.subheader("💬 Chat with Your Data")
+        st.subheader("[CHAT] Chat with Your Data")
 
         if not st.session_state.api_key_valid:
-            st.error("❌ API Key not configured. See sidebar for setup instructions.")
+            st.error("[ERROR] API Key not configured. See sidebar for setup instructions.")
         else:
             lang = st.session_state.language
             placeholder = (
@@ -689,7 +689,7 @@ if st.session_state.get("analysis_done"):
                     st.markdown(prompt)
 
                 with st.chat_message("assistant"):
-                    with st.spinner("🤔 Analyzing..."):
+                    with st.spinner("[...] Analyzing..."):
                         try:
                             rag_context = semantic_search(
                                 prompt,
@@ -708,17 +708,17 @@ if st.session_state.get("analysis_done"):
                             st.markdown(response)
                             st.session_state.chat_history.append({"role": "assistant", "content": response})
                         except Exception as e:
-                            err_msg = f"❌ Error: {str(e)}"
+                            err_msg = f"[ERROR] Error: {str(e)}"
                             st.error(err_msg)
                             st.session_state.chat_history.append({"role": "assistant", "content": err_msg})
 
             if st.session_state.chat_history:
-                if st.button("🗑️ Clear Chat"):
+                if st.button("[TRASH] Clear Chat"):
                     st.session_state.chat_history = []
                     st.rerun()
 
             st.divider()
-            st.subheader("❓ Quick Questions")
+            st.subheader("[QUESTION] Quick Questions")
             quick_questions = [
                 "What is the overall revenue trend?",
                 "Which product generates the most revenue?",
@@ -731,13 +731,13 @@ if st.session_state.get("analysis_done"):
                 with q_cols[i % len(q_cols)]:
                     if st.button(q, key=f"quick_{i}", use_container_width=True):
                         st.session_state.chat_history.append({"role": "user", "content": q})
-                        with st.spinner("🤔 Analyzing..."):
+                        with st.spinner("[...] Analyzing..."):
                             try:
                                 rag_context = semantic_search(q, st.session_state.faiss_index, st.session_state.chunk_texts, k=4)
                                 response = qa_agent(q, df, column_map, rag_context, st.session_state.chat_history[:-1], language=lang)
                                 st.session_state.chat_history.append({"role": "assistant", "content": response})
                             except Exception as e:
-                                st.session_state.chat_history.append({"role": "assistant", "content": f"❌ Error: {str(e)}"})
+                                st.session_state.chat_history.append({"role": "assistant", "content": f"[ERROR] Error: {str(e)}"})
                         st.rerun()
 
 # ════════════════════════════════════════════════════════════════════════════
@@ -748,25 +748,25 @@ else:
     col1, col2 = st.columns([2, 1], gap="large")
     
     with col1:
-        st.title("🇵🇰 BazaarAI")
+        st.title("BazaarAI")
         st.subheader("AI-Powered Sales Analytics for Pakistani Businesses")
         
         st.markdown("""
-### 🚀 Get Started in 3 Steps
+### [LAUNCH] Get Started in 3 Steps
 
 **1. Upload Data** — CSV or Excel file with your sales data
 **2. Map Columns** — Auto-detect date, revenue, product, region columns
 **3. Get Insights** — AI-powered analysis, trends, and recommendations
 
-### ✨ Key Features
+### [STAR] Key Features
 
-- **📊 Auto Column Detection** — Automatically identifies date, numeric, and categorical fields
-- **📈 Smart KPIs** — Revenue totals, growth rates, month-over-month trends
-- **🚨 Smart Alerts** — Sales decline warnings, concentration risks, growth opportunities
-- **🤖 AI Insights** — Groq LLaMA-powered executive summaries using SCR framework
-- **💬 Data Chat** — Ask natural language questions about your data
-- **🗺️ Regional Analysis** — Performance by geography and product
-- **🇵🇰 Bilingual** — English and Roman Urdu support
+- **[CHART] Auto Column Detection** — Automatically identifies date, numeric, and categorical fields
+- **[UP] Smart KPIs** — Revenue totals, growth rates, month-over-month trends
+- **[ALERT] Smart Alerts** — Sales decline warnings, concentration risks, growth opportunities
+- **[BOT] AI Insights** — Groq LLaMA-powered executive summaries using SCR framework
+- **[CHAT] Data Chat** — Ask natural language questions about your data
+- **[MAP] Regional Analysis** — Performance by geography and product
+- **[WORLD] Bilingual** — English and Roman Urdu support
 
         """)
     
