@@ -1,0 +1,1001 @@
+order_id,date,city,region,store_type,product,category,quantity,unit_price,revenue,cost_price,profit,discount,payment_method,customer_type,channel
+2000,2025-02-01,Islamabad,Capital,Online,Cooking Oil 5L,Grocery,10,2500,25000,1900,6000,0,Cash,Business,Online
+2001,2025-03-31,Islamabad,Capital,Online,Soap Pack,Personal Care,3,150,382,90,112,15,Card,Business,Offline
+2002,2025-01-15,Karachi,Sindh,Online,Laptop Stand,Electronics,2,3000,5400,2200,1000,10,Card,Regular,Online
+2003,2025-01-11,Faisalabad,Punjab,Wholesale,Headphones,Electronics,4,2500,9500,1800,2300,5,Cash,Business,Online
+2004,2025-02-17,Quetta,Balochistan,Retail,Sugar 5kg,Grocery,10,900,9000,650,2500,0,Cash,Business,Online
+2005,2025-02-08,Faisalabad,Punjab,Retail,Cooking Oil 5L,Grocery,13,2500,32500,1900,7800,0,Bank Transfer,Business,Offline
+2006,2025-03-26,Karachi,Sindh,Retail,Cooking Oil 5L,Grocery,11,2500,24750,1900,3850,10,Bank Transfer,Regular,Online
+2007,2025-03-09,Lahore,Punjab,Retail,Soap Pack,Personal Care,16,150,2160,90,720,10,Cash,Business,Offline
+2008,2025-03-30,Faisalabad,Punjab,Wholesale,Cooking Oil 5L,Grocery,19,2500,45125,1900,9025,5,Bank Transfer,Regular,Offline
+2009,2025-01-19,Lahore,Punjab,Online,Cooking Oil 5L,Grocery,7,2500,14875,1900,1575,15,Card,Business,Offline
+2010,2025-02-20,Faisalabad,Punjab,Online,Sugar 5kg,Grocery,16,900,14400,650,4000,0,Bank Transfer,Regular,Offline
+2011,2025-01-30,Karachi,Sindh,Wholesale,Mobile Charger,Electronics,11,800,7920,500,2420,10,Cash,Regular,Online
+2012,2025-03-28,Faisalabad,Punjab,Online,Flour 10kg,Grocery,11,1100,12100,800,3300,0,Card,Business,Offline
+2013,2025-01-10,Peshawar,KPK,Retail,Headphones,Electronics,13,2500,32500,1800,9100,0,Bank Transfer,Regular,Online
+2014,2025-03-17,Quetta,Balochistan,Retail,Headphones,Electronics,18,2500,45000,1800,12600,0,Cash,Business,Online
+2015,2025-03-10,Lahore,Punjab,Wholesale,Rice 5kg,Grocery,10,1200,11400,900,2400,5,Card,Business,Online
+2016,2025-01-23,Faisalabad,Punjab,Online,Flour 10kg,Grocery,17,1100,18700,800,5100,0,Bank Transfer,Business,Online
+2017,2025-01-21,Quetta,Balochistan,Retail,Headphones,Electronics,10,2500,23750,1800,5750,5,Cash,Regular,Offline
+2018,2025-03-10,Peshawar,KPK,Wholesale,Cooking Oil 5L,Grocery,13,2500,27625,1900,2925,15,Bank Transfer,Regular,Offline
+2019,2025-02-17,Lahore,Punjab,Online,Soap Pack,Personal Care,19,150,2850,90,1140,0,Bank Transfer,Business,Online
+2020,2025-01-08,Peshawar,KPK,Wholesale,Shampoo,Personal Care,14,450,5670,300,1470,10,Bank Transfer,Business,Offline
+2021,2025-03-18,Islamabad,Capital,Retail,Shampoo,Personal Care,13,450,5850,300,1950,0,Cash,Regular,Online
+2022,2025-02-16,Quetta,Balochistan,Wholesale,Sugar 5kg,Grocery,20,900,18000,650,5000,0,Card,Business,Online
+2023,2025-02-23,Karachi,Sindh,Online,Laptop Stand,Electronics,4,3000,12000,2200,3200,0,Card,Business,Online
+2024,2025-02-18,Karachi,Sindh,Online,Mobile Charger,Electronics,6,800,4560,500,1560,5,Bank Transfer,Regular,Offline
+2025,2025-03-17,Islamabad,Capital,Online,Shampoo,Personal Care,7,450,3150,300,1050,0,Cash,Regular,Online
+2026,2025-03-16,Islamabad,Capital,Retail,Cooking Oil 5L,Grocery,1,2500,2250,1900,350,10,Card,Regular,Online
+2027,2025-03-17,Karachi,Sindh,Retail,Laptop Stand,Electronics,12,3000,30600,2200,4200,15,Card,Business,Offline
+2028,2025-03-14,Quetta,Balochistan,Retail,Flour 10kg,Grocery,7,1100,7700,800,2100,0,Card,Regular,Online
+2029,2025-01-17,Karachi,Sindh,Wholesale,Flour 10kg,Grocery,10,1100,9350,800,1350,15,Bank Transfer,Business,Online
+2030,2025-03-08,Lahore,Punjab,Retail,Flour 10kg,Grocery,15,1100,14025,800,2025,15,Cash,Regular,Offline
+2031,2025-01-03,Islamabad,Capital,Retail,Laptop Stand,Electronics,4,3000,10800,2200,2000,10,Cash,Business,Offline
+2032,2025-01-09,Karachi,Sindh,Wholesale,Laptop Stand,Electronics,1,3000,2700,2200,500,10,Bank Transfer,Regular,Offline
+2033,2025-03-10,Karachi,Sindh,Retail,Soap Pack,Personal Care,11,150,1567,90,577,5,Bank Transfer,Business,Online
+2034,2025-01-06,Karachi,Sindh,Wholesale,Cooking Oil 5L,Grocery,4,2500,10000,1900,2400,0,Cash,Business,Offline
+2035,2025-02-13,Islamabad,Capital,Online,Soap Pack,Personal Care,10,150,1425,90,525,5,Cash,Regular,Offline
+2036,2025-01-30,Quetta,Balochistan,Online,Soap Pack,Personal Care,18,150,2700,90,1080,0,Cash,Regular,Online
+2037,2025-01-28,Peshawar,KPK,Wholesale,Sugar 5kg,Grocery,15,900,12150,650,2400,10,Card,Business,Offline
+2038,2025-01-11,Faisalabad,Punjab,Retail,Shampoo,Personal Care,11,450,4950,300,1650,0,Card,Regular,Offline
+2039,2025-02-23,Lahore,Punjab,Online,Sugar 5kg,Grocery,7,900,5985,650,1435,5,Cash,Business,Offline
+2040,2025-03-19,Faisalabad,Punjab,Online,Flour 10kg,Grocery,20,1100,18700,800,2700,15,Cash,Business,Online
+2041,2025-01-18,Lahore,Punjab,Online,Flour 10kg,Grocery,6,1100,6270,800,1470,5,Bank Transfer,Regular,Online
+2042,2025-04-01,Islamabad,Capital,Online,Soap Pack,Personal Care,6,150,855,90,315,5,Cash,Business,Offline
+2043,2025-01-28,Faisalabad,Punjab,Online,Cooking Oil 5L,Grocery,11,2500,27500,1900,6600,0,Card,Business,Offline
+2044,2025-01-25,Islamabad,Capital,Online,Laptop Stand,Electronics,8,3000,24000,2200,6400,0,Cash,Regular,Online
+2045,2025-01-16,Faisalabad,Punjab,Retail,Rice 5kg,Grocery,17,1200,18360,900,3060,10,Cash,Business,Online
+2046,2025-01-09,Quetta,Balochistan,Online,Laptop Stand,Electronics,13,3000,33150,2200,4550,15,Card,Regular,Online
+2047,2025-01-12,Peshawar,KPK,Wholesale,Cooking Oil 5L,Grocery,5,2500,11875,1900,2375,5,Card,Regular,Offline
+2048,2025-02-28,Islamabad,Capital,Online,Rice 5kg,Grocery,5,1200,5100,900,600,15,Bank Transfer,Regular,Online
+2049,2025-01-30,Karachi,Sindh,Wholesale,Soap Pack,Personal Care,18,150,2430,90,810,10,Cash,Regular,Online
+2050,2025-01-09,Islamabad,Capital,Online,Rice 5kg,Grocery,17,1200,18360,900,3060,10,Cash,Regular,Online
+2051,2025-01-01,Lahore,Punjab,Wholesale,Shampoo,Personal Care,14,450,5670,300,1470,10,Bank Transfer,Business,Online
+2052,2025-02-06,Peshawar,KPK,Online,Rice 5kg,Grocery,4,1200,4800,900,1200,0,Cash,Business,Offline
+2053,2025-02-15,Peshawar,KPK,Online,Flour 10kg,Grocery,9,1100,8415,800,1215,15,Bank Transfer,Business,Online
+2054,2025-03-19,Karachi,Sindh,Wholesale,Soap Pack,Personal Care,18,150,2430,90,810,10,Card,Business,Online
+2055,2025-02-09,Peshawar,KPK,Retail,Headphones,Electronics,12,2500,28500,1800,6900,5,Cash,Business,Online
+2056,2025-01-13,Karachi,Sindh,Wholesale,Cooking Oil 5L,Grocery,13,2500,30875,1900,6175,5,Card,Regular,Offline
+2057,2025-03-03,Peshawar,KPK,Retail,Laptop Stand,Electronics,19,3000,57000,2200,15200,0,Cash,Business,Online
+2058,2025-01-31,Lahore,Punjab,Online,Flour 10kg,Grocery,16,1100,15840,800,3040,10,Cash,Business,Offline
+2059,2025-03-03,Peshawar,KPK,Retail,Laptop Stand,Electronics,7,3000,17850,2200,2450,15,Cash,Business,Online
+2060,2025-03-01,Lahore,Punjab,Online,Mobile Charger,Electronics,5,800,3600,500,1100,10,Cash,Regular,Offline
+2061,2025-02-08,Lahore,Punjab,Wholesale,Flour 10kg,Grocery,10,1100,9900,800,1900,10,Bank Transfer,Business,Offline
+2062,2025-01-05,Quetta,Balochistan,Wholesale,Shampoo,Personal Care,17,450,6885,300,1785,10,Bank Transfer,Business,Offline
+2063,2025-03-22,Quetta,Balochistan,Retail,Soap Pack,Personal Care,1,150,150,90,60,0,Cash,Business,Online
+2064,2025-03-27,Lahore,Punjab,Retail,Laptop Stand,Electronics,20,3000,54000,2200,10000,10,Card,Regular,Online
+2065,2025-01-23,Quetta,Balochistan,Online,Mobile Charger,Electronics,16,800,12160,500,4160,5,Bank Transfer,Business,Online
+2066,2025-02-05,Karachi,Sindh,Retail,Soap Pack,Personal Care,5,150,712,90,262,5,Card,Regular,Offline
+2067,2025-03-14,Faisalabad,Punjab,Retail,Mobile Charger,Electronics,1,800,800,500,300,0,Card,Business,Offline
+2068,2025-01-21,Faisalabad,Punjab,Online,Flour 10kg,Grocery,15,1100,16500,800,4500,0,Cash,Regular,Online
+2069,2025-01-05,Peshawar,KPK,Retail,Rice 5kg,Grocery,7,1200,7140,900,840,15,Card,Regular,Online
+2070,2025-03-20,Lahore,Punjab,Wholesale,Sugar 5kg,Grocery,19,900,16245,650,3895,5,Bank Transfer,Business,Offline
+2071,2025-02-02,Islamabad,Capital,Wholesale,Mobile Charger,Electronics,2,800,1600,500,600,0,Cash,Regular,Online
+2072,2025-02-20,Lahore,Punjab,Wholesale,Sugar 5kg,Grocery,1,900,900,650,250,0,Bank Transfer,Regular,Online
+2073,2025-03-09,Lahore,Punjab,Wholesale,Laptop Stand,Electronics,9,3000,25650,2200,5850,5,Cash,Regular,Online
+2074,2025-03-07,Faisalabad,Punjab,Online,Laptop Stand,Electronics,20,3000,54000,2200,10000,10,Card,Business,Online
+2075,2025-03-17,Islamabad,Capital,Wholesale,Headphones,Electronics,12,2500,27000,1800,5400,10,Card,Business,Offline
+2076,2025-01-11,Islamabad,Capital,Online,Cooking Oil 5L,Grocery,16,2500,38000,1900,7600,5,Card,Business,Offline
+2077,2025-03-21,Karachi,Sindh,Retail,Headphones,Electronics,10,2500,23750,1800,5750,5,Card,Business,Online
+2078,2025-03-07,Karachi,Sindh,Retail,Soap Pack,Personal Care,18,150,2430,90,810,10,Bank Transfer,Business,Online
+2079,2025-02-14,Quetta,Balochistan,Retail,Flour 10kg,Grocery,9,1100,9405,800,2205,5,Card,Regular,Online
+2080,2025-01-20,Karachi,Sindh,Wholesale,Headphones,Electronics,14,2500,33250,1800,8050,5,Cash,Business,Offline
+2081,2025-01-03,Lahore,Punjab,Online,Flour 10kg,Grocery,16,1100,16720,800,3920,5,Cash,Regular,Online
+2082,2025-01-09,Quetta,Balochistan,Retail,Cooking Oil 5L,Grocery,15,2500,35625,1900,7125,5,Cash,Business,Online
+2083,2025-03-12,Faisalabad,Punjab,Wholesale,Cooking Oil 5L,Grocery,14,2500,35000,1900,8400,0,Cash,Business,Online
+2084,2025-02-24,Faisalabad,Punjab,Online,Mobile Charger,Electronics,5,800,4000,500,1500,0,Cash,Business,Offline
+2085,2025-01-15,Peshawar,KPK,Wholesale,Headphones,Electronics,16,2500,38000,1800,9200,5,Cash,Regular,Offline
+2086,2025-01-22,Peshawar,KPK,Online,Rice 5kg,Grocery,3,1200,3060,900,360,15,Cash,Regular,Offline
+2087,2025-03-03,Faisalabad,Punjab,Online,Cooking Oil 5L,Grocery,6,2500,13500,1900,2100,10,Cash,Regular,Online
+2088,2025-02-27,Karachi,Sindh,Online,Shampoo,Personal Care,8,450,3240,300,840,10,Cash,Regular,Online
+2089,2025-01-19,Lahore,Punjab,Online,Headphones,Electronics,14,2500,35000,1800,9800,0,Card,Regular,Online
+2090,2025-02-24,Peshawar,KPK,Online,Sugar 5kg,Grocery,8,900,6120,650,920,15,Bank Transfer,Business,Online
+2091,2025-01-27,Faisalabad,Punjab,Online,Headphones,Electronics,18,2500,42750,1800,10350,5,Cash,Business,Offline
+2092,2025-02-24,Peshawar,KPK,Wholesale,Shampoo,Personal Care,4,450,1620,300,420,10,Card,Business,Offline
+2093,2025-01-21,Islamabad,Capital,Wholesale,Cooking Oil 5L,Grocery,3,2500,6750,1900,1050,10,Card,Business,Online
+2094,2025-01-12,Peshawar,KPK,Retail,Cooking Oil 5L,Grocery,10,2500,21250,1900,2250,15,Cash,Regular,Offline
+2095,2025-02-10,Quetta,Balochistan,Online,Laptop Stand,Electronics,10,3000,25500,2200,3500,15,Bank Transfer,Regular,Offline
+2096,2025-02-25,Lahore,Punjab,Retail,Shampoo,Personal Care,18,450,8100,300,2700,0,Card,Regular,Online
+2097,2025-01-31,Karachi,Sindh,Retail,Cooking Oil 5L,Grocery,15,2500,35625,1900,7125,5,Cash,Business,Online
+2098,2025-01-14,Peshawar,KPK,Online,Sugar 5kg,Grocery,10,900,8100,650,1600,10,Cash,Regular,Offline
+2099,2025-03-12,Quetta,Balochistan,Retail,Rice 5kg,Grocery,2,1200,2400,900,600,0,Card,Business,Offline
+2100,2025-03-05,Karachi,Sindh,Wholesale,Sugar 5kg,Grocery,5,900,4050,650,800,10,Card,Business,Online
+2101,2025-03-04,Lahore,Punjab,Online,Cooking Oil 5L,Grocery,12,2500,30000,1900,7200,0,Bank Transfer,Business,Online
+2102,2025-02-17,Peshawar,KPK,Online,Shampoo,Personal Care,8,450,3420,300,1020,5,Cash,Business,Online
+2103,2025-01-16,Peshawar,KPK,Retail,Headphones,Electronics,13,2500,30875,1800,7475,5,Card,Regular,Offline
+2104,2025-03-29,Islamabad,Capital,Retail,Shampoo,Personal Care,10,450,3825,300,825,15,Bank Transfer,Regular,Online
+2105,2025-01-04,Peshawar,KPK,Online,Cooking Oil 5L,Grocery,8,2500,20000,1900,4800,0,Bank Transfer,Regular,Offline
+2106,2025-01-14,Karachi,Sindh,Wholesale,Mobile Charger,Electronics,17,800,12920,500,4420,5,Card,Business,Offline
+2107,2025-03-18,Quetta,Balochistan,Wholesale,Cooking Oil 5L,Grocery,8,2500,20000,1900,4800,0,Bank Transfer,Business,Online
+2108,2025-02-17,Quetta,Balochistan,Wholesale,Flour 10kg,Grocery,6,1100,5940,800,1140,10,Card,Business,Offline
+2109,2025-02-21,Islamabad,Capital,Online,Flour 10kg,Grocery,9,1100,8415,800,1215,15,Cash,Regular,Offline
+2110,2025-01-07,Faisalabad,Punjab,Wholesale,Flour 10kg,Grocery,17,1100,18700,800,5100,0,Bank Transfer,Regular,Online
+2111,2025-01-06,Karachi,Sindh,Online,Sugar 5kg,Grocery,20,900,17100,650,4100,5,Cash,Regular,Offline
+2112,2025-01-01,Islamabad,Capital,Online,Headphones,Electronics,13,2500,27625,1800,4225,15,Bank Transfer,Business,Online
+2113,2025-02-02,Lahore,Punjab,Wholesale,Shampoo,Personal Care,5,450,2250,300,750,0,Card,Regular,Offline
+2114,2025-01-12,Karachi,Sindh,Retail,Cooking Oil 5L,Grocery,9,2500,19125,1900,2025,15,Cash,Regular,Online
+2115,2025-03-13,Karachi,Sindh,Retail,Soap Pack,Personal Care,4,150,540,90,180,10,Cash,Business,Offline
+2116,2025-03-24,Peshawar,KPK,Wholesale,Rice 5kg,Grocery,10,1200,10200,900,1200,15,Card,Regular,Online
+2117,2025-01-31,Lahore,Punjab,Retail,Mobile Charger,Electronics,14,800,10640,500,3640,5,Cash,Business,Offline
+2118,2025-01-05,Lahore,Punjab,Online,Cooking Oil 5L,Grocery,13,2500,32500,1900,7800,0,Cash,Regular,Online
+2119,2025-01-09,Quetta,Balochistan,Wholesale,Shampoo,Personal Care,13,450,5265,300,1365,10,Bank Transfer,Business,Online
+2120,2025-01-17,Islamabad,Capital,Retail,Cooking Oil 5L,Grocery,12,2500,25500,1900,2700,15,Cash,Business,Offline
+2121,2025-01-22,Lahore,Punjab,Wholesale,Shampoo,Personal Care,7,450,3150,300,1050,0,Bank Transfer,Business,Offline
+2122,2025-03-03,Lahore,Punjab,Online,Rice 5kg,Grocery,6,1200,6480,900,1080,10,Card,Business,Online
+2123,2025-03-09,Lahore,Punjab,Online,Flour 10kg,Grocery,15,1100,16500,800,4500,0,Card,Business,Offline
+2124,2025-01-18,Lahore,Punjab,Online,Rice 5kg,Grocery,13,1200,13260,900,1560,15,Cash,Business,Online
+2125,2025-02-11,Islamabad,Capital,Retail,Headphones,Electronics,6,2500,12750,1800,1950,15,Cash,Regular,Online
+2126,2025-03-20,Peshawar,KPK,Retail,Mobile Charger,Electronics,1,800,800,500,300,0,Bank Transfer,Regular,Offline
+2127,2025-03-07,Faisalabad,Punjab,Retail,Soap Pack,Personal Care,15,150,1912,90,562,15,Cash,Business,Online
+2128,2025-02-12,Karachi,Sindh,Wholesale,Soap Pack,Personal Care,1,150,135,90,45,10,Cash,Business,Online
+2129,2025-03-18,Faisalabad,Punjab,Retail,Soap Pack,Personal Care,7,150,892,90,262,15,Card,Regular,Offline
+2130,2025-03-14,Quetta,Balochistan,Retail,Cooking Oil 5L,Grocery,16,2500,34000,1900,3600,15,Cash,Business,Online
+2131,2025-03-29,Peshawar,KPK,Wholesale,Flour 10kg,Grocery,13,1100,13585,800,3185,5,Card,Regular,Online
+2132,2025-01-04,Faisalabad,Punjab,Online,Flour 10kg,Grocery,12,1100,13200,800,3600,0,Bank Transfer,Business,Offline
+2133,2025-02-13,Faisalabad,Punjab,Online,Laptop Stand,Electronics,14,3000,42000,2200,11200,0,Card,Business,Online
+2134,2025-02-02,Islamabad,Capital,Retail,Laptop Stand,Electronics,20,3000,54000,2200,10000,10,Bank Transfer,Business,Online
+2135,2025-02-25,Faisalabad,Punjab,Online,Mobile Charger,Electronics,12,800,8640,500,2640,10,Cash,Business,Offline
+2136,2025-01-22,Islamabad,Capital,Wholesale,Mobile Charger,Electronics,20,800,13600,500,3600,15,Cash,Business,Offline
+2137,2025-02-18,Faisalabad,Punjab,Retail,Cooking Oil 5L,Grocery,11,2500,26125,1900,5225,5,Bank Transfer,Business,Online
+2138,2025-03-01,Lahore,Punjab,Online,Soap Pack,Personal Care,3,150,405,90,135,10,Bank Transfer,Business,Online
+2139,2025-03-06,Lahore,Punjab,Wholesale,Cooking Oil 5L,Grocery,5,2500,10625,1900,1125,15,Bank Transfer,Regular,Online
+2140,2025-01-21,Karachi,Sindh,Online,Sugar 5kg,Grocery,3,900,2295,650,345,15,Card,Business,Online
+2141,2025-02-28,Quetta,Balochistan,Wholesale,Laptop Stand,Electronics,6,3000,18000,2200,4800,0,Card,Business,Offline
+2142,2025-02-26,Peshawar,KPK,Online,Rice 5kg,Grocery,5,1200,6000,900,1500,0,Cash,Regular,Offline
+2143,2025-03-06,Karachi,Sindh,Wholesale,Soap Pack,Personal Care,16,150,2040,90,600,15,Cash,Regular,Offline
+2144,2025-03-13,Islamabad,Capital,Wholesale,Mobile Charger,Electronics,10,800,7600,500,2600,5,Cash,Business,Online
+2145,2025-03-29,Peshawar,KPK,Online,Flour 10kg,Grocery,20,1100,22000,800,6000,0,Cash,Business,Offline
+2146,2025-02-17,Faisalabad,Punjab,Retail,Flour 10kg,Grocery,16,1100,17600,800,4800,0,Bank Transfer,Regular,Online
+2147,2025-01-27,Lahore,Punjab,Online,Mobile Charger,Electronics,7,800,5040,500,1540,10,Bank Transfer,Business,Online
+2148,2025-03-01,Lahore,Punjab,Online,Rice 5kg,Grocery,20,1200,22800,900,4800,5,Bank Transfer,Regular,Online
+2149,2025-02-23,Quetta,Balochistan,Online,Mobile Charger,Electronics,3,800,2400,500,900,0,Bank Transfer,Business,Online
+2150,2025-03-04,Faisalabad,Punjab,Wholesale,Laptop Stand,Electronics,4,3000,12000,2200,3200,0,Bank Transfer,Regular,Online
+2151,2025-03-05,Islamabad,Capital,Online,Shampoo,Personal Care,10,450,4500,300,1500,0,Cash,Business,Online
+2152,2025-01-24,Islamabad,Capital,Retail,Shampoo,Personal Care,3,450,1350,300,450,0,Bank Transfer,Regular,Offline
+2153,2025-01-27,Islamabad,Capital,Online,Flour 10kg,Grocery,6,1100,6270,800,1470,5,Cash,Business,Offline
+2154,2025-02-07,Faisalabad,Punjab,Online,Headphones,Electronics,13,2500,30875,1800,7475,5,Bank Transfer,Business,Offline
+2155,2025-02-10,Islamabad,Capital,Retail,Rice 5kg,Grocery,8,1200,9120,900,1920,5,Cash,Business,Offline
+2156,2025-02-02,Karachi,Sindh,Retail,Laptop Stand,Electronics,12,3000,34200,2200,7800,5,Card,Regular,Online
+2157,2025-04-01,Lahore,Punjab,Wholesale,Sugar 5kg,Grocery,20,900,15300,650,2300,15,Bank Transfer,Business,Offline
+2158,2025-03-03,Peshawar,KPK,Retail,Flour 10kg,Grocery,18,1100,19800,800,5400,0,Bank Transfer,Regular,Offline
+2159,2025-03-14,Lahore,Punjab,Wholesale,Cooking Oil 5L,Grocery,1,2500,2500,1900,600,0,Card,Regular,Online
+2160,2025-02-05,Karachi,Sindh,Retail,Soap Pack,Personal Care,12,150,1620,90,540,10,Card,Regular,Online
+2161,2025-03-09,Quetta,Balochistan,Wholesale,Flour 10kg,Grocery,15,1100,15675,800,3675,5,Card,Business,Online
+2162,2025-01-07,Peshawar,KPK,Online,Headphones,Electronics,11,2500,24750,1800,4950,10,Card,Regular,Offline
+2163,2025-03-14,Islamabad,Capital,Online,Cooking Oil 5L,Grocery,19,2500,42750,1900,6650,10,Cash,Business,Online
+2164,2025-01-04,Quetta,Balochistan,Retail,Sugar 5kg,Grocery,20,900,17100,650,4100,5,Bank Transfer,Regular,Offline
+2165,2025-03-28,Quetta,Balochistan,Online,Headphones,Electronics,12,2500,27000,1800,5400,10,Bank Transfer,Business,Offline
+2166,2025-01-21,Peshawar,KPK,Online,Laptop Stand,Electronics,20,3000,54000,2200,10000,10,Cash,Business,Offline
+2167,2025-01-21,Lahore,Punjab,Wholesale,Cooking Oil 5L,Grocery,4,2500,9000,1900,1400,10,Card,Regular,Offline
+2168,2025-01-05,Quetta,Balochistan,Wholesale,Flour 10kg,Grocery,9,1100,9405,800,2205,5,Bank Transfer,Regular,Online
+2169,2025-02-02,Peshawar,KPK,Wholesale,Mobile Charger,Electronics,3,800,2280,500,780,5,Cash,Regular,Offline
+2170,2025-01-24,Islamabad,Capital,Online,Laptop Stand,Electronics,13,3000,37050,2200,8450,5,Cash,Business,Online
+2171,2025-03-10,Lahore,Punjab,Online,Flour 10kg,Grocery,18,1100,16830,800,2430,15,Bank Transfer,Business,Online
+2172,2025-01-02,Karachi,Sindh,Online,Shampoo,Personal Care,1,450,382,300,82,15,Cash,Business,Online
+2173,2025-03-06,Karachi,Sindh,Online,Shampoo,Personal Care,13,450,5557,300,1657,5,Card,Business,Online
+2174,2025-01-25,Quetta,Balochistan,Online,Cooking Oil 5L,Grocery,13,2500,29250,1900,4550,10,Cash,Business,Online
+2175,2025-03-22,Peshawar,KPK,Wholesale,Laptop Stand,Electronics,6,3000,15300,2200,2100,15,Card,Regular,Online
+2176,2025-02-03,Lahore,Punjab,Retail,Shampoo,Personal Care,10,450,4500,300,1500,0,Cash,Regular,Online
+2177,2025-03-19,Peshawar,KPK,Wholesale,Sugar 5kg,Grocery,15,900,13500,650,3750,0,Card,Regular,Offline
+2178,2025-03-19,Karachi,Sindh,Wholesale,Rice 5kg,Grocery,1,1200,1140,900,240,5,Cash,Business,Online
+2179,2025-03-28,Faisalabad,Punjab,Online,Laptop Stand,Electronics,14,3000,35700,2200,4900,15,Bank Transfer,Business,Online
+2180,2025-03-06,Peshawar,KPK,Online,Sugar 5kg,Grocery,1,900,810,650,160,10,Bank Transfer,Business,Online
+2181,2025-02-06,Quetta,Balochistan,Retail,Mobile Charger,Electronics,6,800,4800,500,1800,0,Cash,Business,Online
+2182,2025-02-04,Lahore,Punjab,Retail,Headphones,Electronics,17,2500,42500,1800,11900,0,Cash,Business,Online
+2183,2025-01-24,Lahore,Punjab,Retail,Laptop Stand,Electronics,19,3000,48450,2200,6650,15,Card,Regular,Online
+2184,2025-01-16,Peshawar,KPK,Online,Sugar 5kg,Grocery,13,900,9945,650,1495,15,Card,Business,Offline
+2185,2025-03-19,Lahore,Punjab,Retail,Headphones,Electronics,8,2500,19000,1800,4600,5,Cash,Business,Online
+2186,2025-01-16,Karachi,Sindh,Online,Soap Pack,Personal Care,8,150,1140,90,420,5,Cash,Regular,Online
+2187,2025-01-20,Quetta,Balochistan,Retail,Sugar 5kg,Grocery,2,900,1710,650,410,5,Bank Transfer,Business,Offline
+2188,2025-03-15,Peshawar,KPK,Wholesale,Mobile Charger,Electronics,3,800,2040,500,540,15,Card,Business,Online
+2189,2025-03-31,Faisalabad,Punjab,Wholesale,Shampoo,Personal Care,9,450,3442,300,742,15,Card,Regular,Online
+2190,2025-02-18,Peshawar,KPK,Online,Rice 5kg,Grocery,9,1200,9720,900,1620,10,Cash,Business,Online
+2191,2025-03-31,Islamabad,Capital,Wholesale,Headphones,Electronics,2,2500,4250,1800,650,15,Bank Transfer,Business,Offline
+2192,2025-02-20,Quetta,Balochistan,Retail,Shampoo,Personal Care,2,450,900,300,300,0,Bank Transfer,Business,Offline
+2193,2025-02-07,Peshawar,KPK,Wholesale,Headphones,Electronics,4,2500,9500,1800,2300,5,Cash,Regular,Offline
+2194,2025-03-25,Karachi,Sindh,Retail,Mobile Charger,Electronics,1,800,680,500,180,15,Cash,Regular,Online
+2195,2025-01-19,Quetta,Balochistan,Online,Flour 10kg,Grocery,20,1100,22000,800,6000,0,Cash,Business,Online
+2196,2025-02-01,Lahore,Punjab,Online,Rice 5kg,Grocery,13,1200,14040,900,2340,10,Cash,Regular,Offline
+2197,2025-01-14,Quetta,Balochistan,Online,Headphones,Electronics,15,2500,37500,1800,10500,0,Card,Regular,Offline
+2198,2025-03-27,Quetta,Balochistan,Wholesale,Sugar 5kg,Grocery,2,900,1800,650,500,0,Card,Regular,Online
+2199,2025-01-15,Quetta,Balochistan,Retail,Flour 10kg,Grocery,10,1100,11000,800,3000,0,Card,Business,Offline
+2200,2025-02-21,Karachi,Sindh,Wholesale,Laptop Stand,Electronics,17,3000,43350,2200,5950,15,Card,Regular,Online
+2201,2025-03-10,Lahore,Punjab,Wholesale,Flour 10kg,Grocery,8,1100,8360,800,1960,5,Bank Transfer,Business,Offline
+2202,2025-01-16,Islamabad,Capital,Wholesale,Soap Pack,Personal Care,15,150,2250,90,900,0,Cash,Regular,Online
+2203,2025-02-27,Faisalabad,Punjab,Wholesale,Cooking Oil 5L,Grocery,7,2500,16625,1900,3325,5,Card,Regular,Offline
+2204,2025-01-27,Peshawar,KPK,Wholesale,Rice 5kg,Grocery,11,1200,12540,900,2640,5,Card,Regular,Offline
+2205,2025-03-05,Lahore,Punjab,Online,Soap Pack,Personal Care,1,150,142,90,52,5,Cash,Business,Offline
+2206,2025-01-01,Lahore,Punjab,Wholesale,Shampoo,Personal Care,7,450,2992,300,892,5,Bank Transfer,Regular,Online
+2207,2025-03-08,Quetta,Balochistan,Retail,Flour 10kg,Grocery,7,1100,7315,800,1715,5,Cash,Business,Offline
+2208,2025-01-06,Islamabad,Capital,Retail,Shampoo,Personal Care,1,450,427,300,127,5,Cash,Regular,Offline
+2209,2025-02-03,Lahore,Punjab,Wholesale,Soap Pack,Personal Care,17,150,2295,90,765,10,Cash,Business,Offline
+2210,2025-03-12,Quetta,Balochistan,Wholesale,Headphones,Electronics,11,2500,27500,1800,7700,0,Cash,Regular,Offline
+2211,2025-01-14,Karachi,Sindh,Online,Sugar 5kg,Grocery,12,900,10260,650,2460,5,Cash,Regular,Online
+2212,2025-02-26,Quetta,Balochistan,Retail,Laptop Stand,Electronics,4,3000,11400,2200,2600,5,Cash,Regular,Offline
+2213,2025-02-07,Faisalabad,Punjab,Retail,Sugar 5kg,Grocery,12,900,10800,650,3000,0,Card,Business,Offline
+2214,2025-02-14,Karachi,Sindh,Retail,Laptop Stand,Electronics,7,3000,18900,2200,3500,10,Bank Transfer,Business,Offline
+2215,2025-01-11,Quetta,Balochistan,Wholesale,Sugar 5kg,Grocery,10,900,7650,650,1150,15,Cash,Regular,Offline
+2216,2025-01-27,Quetta,Balochistan,Wholesale,Mobile Charger,Electronics,5,800,4000,500,1500,0,Bank Transfer,Regular,Online
+2217,2025-04-01,Lahore,Punjab,Online,Mobile Charger,Electronics,9,800,6120,500,1620,15,Card,Business,Offline
+2218,2025-02-23,Faisalabad,Punjab,Online,Soap Pack,Personal Care,20,150,2550,90,750,15,Bank Transfer,Regular,Offline
+2219,2025-03-11,Faisalabad,Punjab,Online,Headphones,Electronics,5,2500,11250,1800,2250,10,Card,Business,Online
+2220,2025-03-26,Faisalabad,Punjab,Wholesale,Cooking Oil 5L,Grocery,12,2500,30000,1900,7200,0,Card,Regular,Offline
+2221,2025-03-28,Faisalabad,Punjab,Wholesale,Rice 5kg,Grocery,19,1200,20520,900,3420,10,Card,Regular,Offline
+2222,2025-02-28,Lahore,Punjab,Wholesale,Rice 5kg,Grocery,5,1200,5700,900,1200,5,Card,Regular,Offline
+2223,2025-03-29,Karachi,Sindh,Wholesale,Soap Pack,Personal Care,6,150,765,90,225,15,Cash,Regular,Online
+2224,2025-03-25,Lahore,Punjab,Wholesale,Cooking Oil 5L,Grocery,6,2500,12750,1900,1350,15,Card,Business,Online
+2225,2025-03-17,Lahore,Punjab,Online,Sugar 5kg,Grocery,17,900,14535,650,3485,5,Bank Transfer,Business,Online
+2226,2025-02-05,Peshawar,KPK,Online,Headphones,Electronics,19,2500,42750,1800,8550,10,Card,Business,Online
+2227,2025-01-28,Quetta,Balochistan,Online,Sugar 5kg,Grocery,5,900,3825,650,575,15,Bank Transfer,Regular,Online
+2228,2025-03-29,Karachi,Sindh,Online,Shampoo,Personal Care,17,450,6502,300,1402,15,Card,Regular,Offline
+2229,2025-03-26,Lahore,Punjab,Wholesale,Mobile Charger,Electronics,17,800,11560,500,3060,15,Cash,Business,Offline
+2230,2025-03-20,Islamabad,Capital,Retail,Soap Pack,Personal Care,13,150,1657,90,487,15,Cash,Regular,Online
+2231,2025-03-12,Faisalabad,Punjab,Online,Laptop Stand,Electronics,14,3000,42000,2200,11200,0,Card,Business,Online
+2232,2025-01-02,Faisalabad,Punjab,Retail,Flour 10kg,Grocery,17,1100,18700,800,5100,0,Card,Regular,Offline
+2233,2025-01-27,Lahore,Punjab,Online,Sugar 5kg,Grocery,19,900,16245,650,3895,5,Bank Transfer,Regular,Online
+2234,2025-02-11,Faisalabad,Punjab,Retail,Soap Pack,Personal Care,13,150,1852,90,682,5,Bank Transfer,Business,Online
+2235,2025-03-05,Lahore,Punjab,Retail,Soap Pack,Personal Care,17,150,2422,90,892,5,Cash,Business,Online
+2236,2025-02-24,Peshawar,KPK,Online,Sugar 5kg,Grocery,10,900,8550,650,2050,5,Card,Business,Offline
+2237,2025-02-20,Peshawar,KPK,Wholesale,Cooking Oil 5L,Grocery,11,2500,24750,1900,3850,10,Cash,Business,Offline
+2238,2025-03-15,Faisalabad,Punjab,Retail,Laptop Stand,Electronics,6,3000,18000,2200,4800,0,Card,Business,Online
+2239,2025-03-18,Quetta,Balochistan,Retail,Laptop Stand,Electronics,8,3000,21600,2200,4000,10,Cash,Regular,Online
+2240,2025-01-25,Lahore,Punjab,Online,Cooking Oil 5L,Grocery,12,2500,30000,1900,7200,0,Bank Transfer,Regular,Offline
+2241,2025-02-09,Islamabad,Capital,Online,Headphones,Electronics,5,2500,11875,1800,2875,5,Card,Business,Online
+2242,2025-01-31,Karachi,Sindh,Wholesale,Cooking Oil 5L,Grocery,19,2500,40375,1900,4275,15,Card,Regular,Online
+2243,2025-03-13,Quetta,Balochistan,Online,Sugar 5kg,Grocery,19,900,17100,650,4750,0,Cash,Business,Online
+2244,2025-03-26,Lahore,Punjab,Retail,Cooking Oil 5L,Grocery,13,2500,32500,1900,7800,0,Cash,Business,Online
+2245,2025-01-19,Lahore,Punjab,Wholesale,Cooking Oil 5L,Grocery,20,2500,50000,1900,12000,0,Card,Regular,Online
+2246,2025-01-10,Faisalabad,Punjab,Wholesale,Flour 10kg,Grocery,2,1100,2200,800,600,0,Bank Transfer,Business,Offline
+2247,2025-02-22,Quetta,Balochistan,Wholesale,Headphones,Electronics,4,2500,10000,1800,2800,0,Card,Business,Offline
+2248,2025-01-16,Karachi,Sindh,Retail,Laptop Stand,Electronics,19,3000,54150,2200,12350,5,Cash,Regular,Offline
+2249,2025-03-10,Peshawar,KPK,Online,Shampoo,Personal Care,1,450,382,300,82,15,Cash,Business,Online
+2250,2025-03-09,Karachi,Sindh,Retail,Soap Pack,Personal Care,20,150,3000,90,1200,0,Bank Transfer,Regular,Offline
+2251,2025-01-20,Faisalabad,Punjab,Online,Mobile Charger,Electronics,8,800,5760,500,1760,10,Bank Transfer,Business,Online
+2252,2025-03-03,Lahore,Punjab,Online,Headphones,Electronics,17,2500,40375,1800,9775,5,Card,Business,Online
+2253,2025-01-05,Peshawar,KPK,Wholesale,Rice 5kg,Grocery,12,1200,12960,900,2160,10,Bank Transfer,Regular,Online
+2254,2025-01-21,Quetta,Balochistan,Wholesale,Flour 10kg,Grocery,6,1100,5940,800,1140,10,Bank Transfer,Business,Offline
+2255,2025-01-04,Islamabad,Capital,Wholesale,Flour 10kg,Grocery,17,1100,15895,800,2295,15,Bank Transfer,Regular,Offline
+2256,2025-01-09,Karachi,Sindh,Wholesale,Mobile Charger,Electronics,11,800,8360,500,2860,5,Cash,Regular,Offline
+2257,2025-02-10,Faisalabad,Punjab,Online,Cooking Oil 5L,Grocery,19,2500,45125,1900,9025,5,Bank Transfer,Business,Online
+2258,2025-03-10,Lahore,Punjab,Online,Flour 10kg,Grocery,15,1100,15675,800,3675,5,Cash,Regular,Offline
+2259,2025-02-22,Islamabad,Capital,Wholesale,Rice 5kg,Grocery,15,1200,16200,900,2700,10,Cash,Business,Online
+2260,2025-02-13,Karachi,Sindh,Online,Rice 5kg,Grocery,18,1200,20520,900,4320,5,Card,Business,Online
+2261,2025-02-11,Quetta,Balochistan,Retail,Shampoo,Personal Care,8,450,3060,300,660,15,Bank Transfer,Business,Online
+2262,2025-03-15,Karachi,Sindh,Online,Headphones,Electronics,10,2500,25000,1800,7000,0,Cash,Regular,Offline
+2263,2025-03-15,Lahore,Punjab,Wholesale,Mobile Charger,Electronics,1,800,680,500,180,15,Cash,Regular,Offline
+2264,2025-03-21,Karachi,Sindh,Wholesale,Flour 10kg,Grocery,3,1100,3300,800,900,0,Card,Business,Online
+2265,2025-02-13,Karachi,Sindh,Online,Rice 5kg,Grocery,16,1200,17280,900,2880,10,Bank Transfer,Regular,Online
+2266,2025-01-23,Peshawar,KPK,Wholesale,Rice 5kg,Grocery,8,1200,9120,900,1920,5,Card,Business,Online
+2267,2025-01-12,Quetta,Balochistan,Wholesale,Flour 10kg,Grocery,10,1100,9900,800,1900,10,Bank Transfer,Regular,Online
+2268,2025-01-13,Lahore,Punjab,Online,Shampoo,Personal Care,10,450,3825,300,825,15,Card,Business,Online
+2269,2025-01-15,Lahore,Punjab,Online,Rice 5kg,Grocery,17,1200,19380,900,4080,5,Card,Regular,Offline
+2270,2025-03-05,Lahore,Punjab,Retail,Sugar 5kg,Grocery,2,900,1800,650,500,0,Cash,Business,Online
+2271,2025-01-21,Peshawar,KPK,Online,Rice 5kg,Grocery,12,1200,12240,900,1440,15,Bank Transfer,Business,Online
+2272,2025-02-03,Peshawar,KPK,Online,Sugar 5kg,Grocery,16,900,13680,650,3280,5,Cash,Business,Offline
+2273,2025-01-18,Peshawar,KPK,Online,Shampoo,Personal Care,16,450,6120,300,1320,15,Cash,Regular,Offline
+2274,2025-02-18,Peshawar,KPK,Retail,Rice 5kg,Grocery,4,1200,4320,900,720,10,Card,Business,Online
+2275,2025-04-01,Quetta,Balochistan,Wholesale,Cooking Oil 5L,Grocery,10,2500,23750,1900,4750,5,Bank Transfer,Business,Offline
+2276,2025-01-05,Faisalabad,Punjab,Wholesale,Sugar 5kg,Grocery,4,900,3240,650,640,10,Bank Transfer,Regular,Online
+2277,2025-02-11,Faisalabad,Punjab,Retail,Shampoo,Personal Care,5,450,2137,300,637,5,Bank Transfer,Regular,Online
+2278,2025-01-25,Islamabad,Capital,Online,Headphones,Electronics,13,2500,32500,1800,9100,0,Bank Transfer,Business,Offline
+2279,2025-02-21,Lahore,Punjab,Online,Headphones,Electronics,12,2500,28500,1800,6900,5,Bank Transfer,Regular,Offline
+2280,2025-03-07,Peshawar,KPK,Wholesale,Laptop Stand,Electronics,19,3000,54150,2200,12350,5,Cash,Regular,Offline
+2281,2025-01-10,Peshawar,KPK,Wholesale,Mobile Charger,Electronics,19,800,12920,500,3420,15,Cash,Regular,Offline
+2282,2025-03-21,Peshawar,KPK,Retail,Sugar 5kg,Grocery,13,900,10530,650,2080,10,Cash,Business,Online
+2283,2025-01-13,Faisalabad,Punjab,Wholesale,Soap Pack,Personal Care,4,150,540,90,180,10,Cash,Business,Online
+2284,2025-04-01,Lahore,Punjab,Wholesale,Shampoo,Personal Care,12,450,4860,300,1260,10,Card,Business,Offline
+2285,2025-01-08,Lahore,Punjab,Online,Flour 10kg,Grocery,13,1100,14300,800,3900,0,Cash,Business,Online
+2286,2025-01-29,Islamabad,Capital,Wholesale,Shampoo,Personal Care,12,450,4590,300,990,15,Bank Transfer,Business,Online
+2287,2025-02-18,Karachi,Sindh,Online,Headphones,Electronics,20,2500,42500,1800,6500,15,Card,Regular,Offline
+2288,2025-04-01,Islamabad,Capital,Wholesale,Mobile Charger,Electronics,2,800,1520,500,520,5,Bank Transfer,Regular,Offline
+2289,2025-02-08,Faisalabad,Punjab,Retail,Sugar 5kg,Grocery,5,900,3825,650,575,15,Bank Transfer,Business,Online
+2290,2025-02-17,Peshawar,KPK,Retail,Sugar 5kg,Grocery,15,900,11475,650,1725,15,Bank Transfer,Regular,Online
+2291,2025-01-21,Quetta,Balochistan,Online,Cooking Oil 5L,Grocery,15,2500,35625,1900,7125,5,Cash,Business,Online
+2292,2025-02-25,Karachi,Sindh,Wholesale,Cooking Oil 5L,Grocery,4,2500,10000,1900,2400,0,Card,Regular,Offline
+2293,2025-01-17,Quetta,Balochistan,Wholesale,Rice 5kg,Grocery,4,1200,4800,900,1200,0,Card,Business,Online
+2294,2025-01-11,Faisalabad,Punjab,Retail,Cooking Oil 5L,Grocery,9,2500,21375,1900,4275,5,Card,Regular,Offline
+2295,2025-03-15,Islamabad,Capital,Wholesale,Sugar 5kg,Grocery,5,900,3825,650,575,15,Cash,Business,Offline
+2296,2025-03-29,Peshawar,KPK,Wholesale,Soap Pack,Personal Care,6,150,855,90,315,5,Card,Business,Online
+2297,2025-03-06,Quetta,Balochistan,Online,Sugar 5kg,Grocery,12,900,10800,650,3000,0,Cash,Regular,Online
+2298,2025-02-26,Faisalabad,Punjab,Online,Mobile Charger,Electronics,1,800,800,500,300,0,Bank Transfer,Regular,Offline
+2299,2025-01-25,Islamabad,Capital,Retail,Flour 10kg,Grocery,14,1100,15400,800,4200,0,Bank Transfer,Regular,Offline
+2300,2025-01-12,Quetta,Balochistan,Retail,Flour 10kg,Grocery,12,1100,11880,800,2280,10,Bank Transfer,Regular,Online
+2301,2025-03-05,Karachi,Sindh,Online,Mobile Charger,Electronics,6,800,4800,500,1800,0,Bank Transfer,Regular,Online
+2302,2025-03-29,Karachi,Sindh,Retail,Cooking Oil 5L,Grocery,20,2500,42500,1900,4500,15,Card,Regular,Offline
+2303,2025-03-24,Quetta,Balochistan,Online,Shampoo,Personal Care,19,450,7267,300,1567,15,Card,Business,Offline
+2304,2025-01-29,Quetta,Balochistan,Retail,Headphones,Electronics,4,2500,9500,1800,2300,5,Cash,Business,Offline
+2305,2025-01-25,Lahore,Punjab,Wholesale,Headphones,Electronics,1,2500,2125,1800,325,15,Bank Transfer,Business,Offline
+2306,2025-02-15,Faisalabad,Punjab,Online,Soap Pack,Personal Care,11,150,1567,90,577,5,Card,Business,Offline
+2307,2025-01-11,Faisalabad,Punjab,Online,Headphones,Electronics,20,2500,47500,1800,11500,5,Card,Regular,Offline
+2308,2025-01-08,Peshawar,KPK,Retail,Sugar 5kg,Grocery,20,900,16200,650,3200,10,Bank Transfer,Regular,Online
+2309,2025-01-15,Karachi,Sindh,Wholesale,Flour 10kg,Grocery,19,1100,17765,800,2565,15,Card,Regular,Offline
+2310,2025-02-13,Peshawar,KPK,Retail,Soap Pack,Personal Care,14,150,2100,90,840,0,Cash,Business,Online
+2311,2025-03-28,Islamabad,Capital,Retail,Soap Pack,Personal Care,20,150,2700,90,900,10,Card,Regular,Online
+2312,2025-01-27,Karachi,Sindh,Online,Headphones,Electronics,6,2500,12750,1800,1950,15,Card,Business,Offline
+2313,2025-01-09,Karachi,Sindh,Wholesale,Flour 10kg,Grocery,13,1100,14300,800,3900,0,Card,Regular,Online
+2314,2025-01-07,Quetta,Balochistan,Online,Soap Pack,Personal Care,7,150,945,90,315,10,Cash,Regular,Offline
+2315,2025-03-26,Peshawar,KPK,Retail,Soap Pack,Personal Care,10,150,1500,90,600,0,Card,Business,Offline
+2316,2025-02-12,Karachi,Sindh,Retail,Rice 5kg,Grocery,10,1200,10200,900,1200,15,Cash,Business,Online
+2317,2025-01-20,Peshawar,KPK,Retail,Mobile Charger,Electronics,1,800,800,500,300,0,Bank Transfer,Regular,Online
+2318,2025-03-30,Faisalabad,Punjab,Wholesale,Headphones,Electronics,18,2500,40500,1800,8100,10,Card,Regular,Offline
+2319,2025-02-23,Islamabad,Capital,Wholesale,Flour 10kg,Grocery,12,1100,11220,800,1620,15,Card,Regular,Offline
+2320,2025-01-14,Peshawar,KPK,Wholesale,Mobile Charger,Electronics,1,800,680,500,180,15,Bank Transfer,Regular,Online
+2321,2025-03-18,Faisalabad,Punjab,Retail,Laptop Stand,Electronics,6,3000,18000,2200,4800,0,Cash,Regular,Online
+2322,2025-03-19,Faisalabad,Punjab,Online,Cooking Oil 5L,Grocery,13,2500,27625,1900,2925,15,Card,Business,Online
+2323,2025-02-24,Faisalabad,Punjab,Retail,Mobile Charger,Electronics,7,800,4760,500,1260,15,Bank Transfer,Regular,Online
+2324,2025-01-10,Peshawar,KPK,Retail,Mobile Charger,Electronics,20,800,16000,500,6000,0,Card,Regular,Online
+2325,2025-01-20,Lahore,Punjab,Retail,Laptop Stand,Electronics,9,3000,24300,2200,4500,10,Cash,Business,Online
+2326,2025-02-10,Faisalabad,Punjab,Retail,Headphones,Electronics,1,2500,2250,1800,450,10,Bank Transfer,Business,Offline
+2327,2025-02-07,Islamabad,Capital,Online,Rice 5kg,Grocery,4,1200,4320,900,720,10,Cash,Regular,Online
+2328,2025-02-09,Karachi,Sindh,Retail,Sugar 5kg,Grocery,11,900,9405,650,2255,5,Card,Regular,Offline
+2329,2025-01-08,Quetta,Balochistan,Online,Sugar 5kg,Grocery,2,900,1800,650,500,0,Cash,Business,Online
+2330,2025-02-18,Lahore,Punjab,Online,Mobile Charger,Electronics,19,800,13680,500,4180,10,Card,Regular,Offline
+2331,2025-03-11,Peshawar,KPK,Online,Flour 10kg,Grocery,1,1100,990,800,190,10,Bank Transfer,Business,Offline
+2332,2025-01-30,Quetta,Balochistan,Retail,Laptop Stand,Electronics,1,3000,2700,2200,500,10,Bank Transfer,Business,Online
+2333,2025-01-13,Faisalabad,Punjab,Wholesale,Cooking Oil 5L,Grocery,8,2500,18000,1900,2800,10,Bank Transfer,Business,Online
+2334,2025-02-02,Lahore,Punjab,Online,Rice 5kg,Grocery,2,1200,2160,900,360,10,Cash,Regular,Offline
+2335,2025-03-06,Karachi,Sindh,Wholesale,Mobile Charger,Electronics,5,800,3400,500,900,15,Cash,Regular,Offline
+2336,2025-01-27,Islamabad,Capital,Online,Cooking Oil 5L,Grocery,10,2500,21250,1900,2250,15,Cash,Business,Online
+2337,2025-02-17,Faisalabad,Punjab,Online,Shampoo,Personal Care,1,450,405,300,105,10,Bank Transfer,Business,Offline
+2338,2025-03-30,Lahore,Punjab,Retail,Cooking Oil 5L,Grocery,16,2500,38000,1900,7600,5,Bank Transfer,Regular,Offline
+2339,2025-02-14,Peshawar,KPK,Wholesale,Sugar 5kg,Grocery,8,900,6840,650,1640,5,Bank Transfer,Regular,Offline
+2340,2025-01-26,Quetta,Balochistan,Wholesale,Rice 5kg,Grocery,4,1200,4080,900,480,15,Cash,Regular,Offline
+2341,2025-03-04,Islamabad,Capital,Retail,Headphones,Electronics,4,2500,9500,1800,2300,5,Bank Transfer,Business,Offline
+2342,2025-03-16,Faisalabad,Punjab,Wholesale,Shampoo,Personal Care,2,450,810,300,210,10,Card,Regular,Online
+2343,2025-01-26,Peshawar,KPK,Retail,Sugar 5kg,Grocery,2,900,1620,650,320,10,Card,Business,Offline
+2344,2025-02-21,Quetta,Balochistan,Retail,Cooking Oil 5L,Grocery,11,2500,27500,1900,6600,0,Cash,Business,Offline
+2345,2025-01-16,Faisalabad,Punjab,Wholesale,Flour 10kg,Grocery,18,1100,18810,800,4410,5,Card,Business,Online
+2346,2025-01-28,Islamabad,Capital,Wholesale,Rice 5kg,Grocery,6,1200,7200,900,1800,0,Bank Transfer,Business,Online
+2347,2025-02-06,Faisalabad,Punjab,Wholesale,Mobile Charger,Electronics,13,800,10400,500,3900,0,Cash,Regular,Offline
+2348,2025-04-01,Lahore,Punjab,Online,Soap Pack,Personal Care,12,150,1710,90,630,5,Card,Regular,Online
+2349,2025-01-02,Quetta,Balochistan,Wholesale,Shampoo,Personal Care,3,450,1350,300,450,0,Cash,Regular,Offline
+2350,2025-02-12,Faisalabad,Punjab,Retail,Soap Pack,Personal Care,16,150,2400,90,960,0,Cash,Regular,Online
+2351,2025-03-26,Quetta,Balochistan,Online,Laptop Stand,Electronics,10,3000,28500,2200,6500,5,Bank Transfer,Regular,Offline
+2352,2025-03-15,Lahore,Punjab,Online,Sugar 5kg,Grocery,10,900,8550,650,2050,5,Bank Transfer,Regular,Online
+2353,2025-01-04,Lahore,Punjab,Online,Sugar 5kg,Grocery,8,900,6480,650,1280,10,Cash,Regular,Online
+2354,2025-02-11,Karachi,Sindh,Wholesale,Shampoo,Personal Care,2,450,855,300,255,5,Cash,Regular,Offline
+2355,2025-03-16,Peshawar,KPK,Online,Mobile Charger,Electronics,18,800,12960,500,3960,10,Card,Regular,Online
+2356,2025-03-18,Quetta,Balochistan,Online,Mobile Charger,Electronics,15,800,11400,500,3900,5,Card,Regular,Offline
+2357,2025-02-22,Faisalabad,Punjab,Wholesale,Cooking Oil 5L,Grocery,11,2500,27500,1900,6600,0,Bank Transfer,Regular,Offline
+2358,2025-01-12,Peshawar,KPK,Retail,Mobile Charger,Electronics,20,800,13600,500,3600,15,Bank Transfer,Business,Online
+2359,2025-01-02,Karachi,Sindh,Online,Mobile Charger,Electronics,4,800,3200,500,1200,0,Cash,Regular,Offline
+2360,2025-01-22,Peshawar,KPK,Retail,Flour 10kg,Grocery,10,1100,9350,800,1350,15,Cash,Business,Online
+2361,2025-02-04,Karachi,Sindh,Retail,Mobile Charger,Electronics,18,800,12960,500,3960,10,Card,Regular,Offline
+2362,2025-02-23,Islamabad,Capital,Wholesale,Sugar 5kg,Grocery,9,900,7290,650,1440,10,Cash,Regular,Online
+2363,2025-01-02,Faisalabad,Punjab,Retail,Rice 5kg,Grocery,5,1200,5100,900,600,15,Card,Regular,Offline
+2364,2025-02-06,Quetta,Balochistan,Wholesale,Cooking Oil 5L,Grocery,16,2500,34000,1900,3600,15,Cash,Business,Online
+2365,2025-01-16,Faisalabad,Punjab,Retail,Mobile Charger,Electronics,11,800,7920,500,2420,10,Card,Business,Online
+2366,2025-01-09,Lahore,Punjab,Retail,Sugar 5kg,Grocery,12,900,9720,650,1920,10,Bank Transfer,Regular,Online
+2367,2025-01-09,Peshawar,KPK,Wholesale,Laptop Stand,Electronics,17,3000,51000,2200,13600,0,Bank Transfer,Business,Online
+2368,2025-02-22,Karachi,Sindh,Wholesale,Sugar 5kg,Grocery,15,900,13500,650,3750,0,Cash,Business,Online
+2369,2025-01-18,Faisalabad,Punjab,Retail,Headphones,Electronics,13,2500,27625,1800,4225,15,Bank Transfer,Business,Online
+2370,2025-02-16,Karachi,Sindh,Retail,Laptop Stand,Electronics,19,3000,54150,2200,12350,5,Bank Transfer,Regular,Offline
+2371,2025-01-11,Karachi,Sindh,Online,Rice 5kg,Grocery,12,1200,12240,900,1440,15,Bank Transfer,Regular,Online
+2372,2025-03-07,Islamabad,Capital,Retail,Flour 10kg,Grocery,6,1100,5940,800,1140,10,Bank Transfer,Business,Offline
+2373,2025-01-07,Quetta,Balochistan,Retail,Shampoo,Personal Care,6,450,2565,300,765,5,Bank Transfer,Regular,Offline
+2374,2025-01-26,Faisalabad,Punjab,Retail,Sugar 5kg,Grocery,14,900,11340,650,2240,10,Bank Transfer,Regular,Offline
+2375,2025-02-11,Karachi,Sindh,Online,Rice 5kg,Grocery,1,1200,1080,900,180,10,Card,Regular,Offline
+2376,2025-03-24,Islamabad,Capital,Wholesale,Shampoo,Personal Care,6,450,2295,300,495,15,Bank Transfer,Regular,Online
+2377,2025-01-05,Faisalabad,Punjab,Wholesale,Flour 10kg,Grocery,16,1100,14960,800,2160,15,Cash,Business,Offline
+2378,2025-03-07,Faisalabad,Punjab,Wholesale,Headphones,Electronics,1,2500,2500,1800,700,0,Cash,Business,Online
+2379,2025-01-20,Karachi,Sindh,Online,Soap Pack,Personal Care,10,150,1425,90,525,5,Cash,Regular,Online
+2380,2025-03-18,Faisalabad,Punjab,Wholesale,Cooking Oil 5L,Grocery,4,2500,9500,1900,1900,5,Bank Transfer,Business,Online
+2381,2025-03-01,Lahore,Punjab,Retail,Sugar 5kg,Grocery,17,900,15300,650,4250,0,Bank Transfer,Regular,Offline
+2382,2025-03-08,Peshawar,KPK,Retail,Headphones,Electronics,4,2500,9500,1800,2300,5,Bank Transfer,Regular,Offline
+2383,2025-03-01,Faisalabad,Punjab,Online,Rice 5kg,Grocery,18,1200,19440,900,3240,10,Bank Transfer,Business,Offline
+2384,2025-02-07,Peshawar,KPK,Wholesale,Shampoo,Personal Care,15,450,6750,300,2250,0,Bank Transfer,Business,Offline
+2385,2025-02-12,Islamabad,Capital,Retail,Headphones,Electronics,13,2500,30875,1800,7475,5,Bank Transfer,Business,Online
+2386,2025-03-12,Karachi,Sindh,Retail,Headphones,Electronics,2,2500,5000,1800,1400,0,Cash,Business,Online
+2387,2025-01-01,Quetta,Balochistan,Online,Headphones,Electronics,13,2500,32500,1800,9100,0,Bank Transfer,Regular,Online
+2388,2025-02-23,Faisalabad,Punjab,Retail,Rice 5kg,Grocery,19,1200,19380,900,2280,15,Card,Business,Offline
+2389,2025-01-09,Lahore,Punjab,Online,Rice 5kg,Grocery,13,1200,13260,900,1560,15,Bank Transfer,Business,Offline
+2390,2025-03-07,Lahore,Punjab,Wholesale,Cooking Oil 5L,Grocery,5,2500,11875,1900,2375,5,Cash,Regular,Offline
+2391,2025-01-23,Islamabad,Capital,Retail,Cooking Oil 5L,Grocery,2,2500,4750,1900,950,5,Card,Regular,Offline
+2392,2025-01-10,Quetta,Balochistan,Retail,Cooking Oil 5L,Grocery,2,2500,4500,1900,700,10,Card,Business,Online
+2393,2025-02-05,Lahore,Punjab,Retail,Headphones,Electronics,11,2500,27500,1800,7700,0,Bank Transfer,Regular,Online
+2394,2025-02-12,Islamabad,Capital,Online,Laptop Stand,Electronics,20,3000,60000,2200,16000,0,Cash,Regular,Online
+2395,2025-02-05,Islamabad,Capital,Online,Laptop Stand,Electronics,10,3000,27000,2200,5000,10,Cash,Regular,Offline
+2396,2025-01-07,Islamabad,Capital,Retail,Laptop Stand,Electronics,6,3000,16200,2200,3000,10,Bank Transfer,Regular,Offline
+2397,2025-02-03,Lahore,Punjab,Wholesale,Soap Pack,Personal Care,20,150,2550,90,750,15,Card,Business,Online
+2398,2025-01-27,Lahore,Punjab,Retail,Laptop Stand,Electronics,19,3000,54150,2200,12350,5,Cash,Business,Online
+2399,2025-03-09,Peshawar,KPK,Online,Laptop Stand,Electronics,6,3000,16200,2200,3000,10,Cash,Regular,Online
+2400,2025-03-04,Islamabad,Capital,Retail,Laptop Stand,Electronics,20,3000,54000,2200,10000,10,Cash,Regular,Offline
+2401,2025-02-07,Islamabad,Capital,Retail,Soap Pack,Personal Care,7,150,1050,90,420,0,Card,Business,Offline
+2402,2025-01-23,Peshawar,KPK,Wholesale,Shampoo,Personal Care,13,450,5557,300,1657,5,Card,Business,Online
+2403,2025-02-01,Lahore,Punjab,Online,Sugar 5kg,Grocery,17,900,13005,650,1955,15,Cash,Business,Online
+2404,2025-01-11,Lahore,Punjab,Online,Laptop Stand,Electronics,16,3000,45600,2200,10400,5,Card,Regular,Online
+2405,2025-03-08,Lahore,Punjab,Wholesale,Flour 10kg,Grocery,1,1100,1045,800,245,5,Cash,Regular,Online
+2406,2025-01-08,Quetta,Balochistan,Online,Laptop Stand,Electronics,10,3000,27000,2200,5000,10,Cash,Regular,Offline
+2407,2025-03-21,Peshawar,KPK,Online,Cooking Oil 5L,Grocery,5,2500,11875,1900,2375,5,Cash,Regular,Offline
+2408,2025-03-10,Quetta,Balochistan,Online,Flour 10kg,Grocery,17,1100,18700,800,5100,0,Cash,Regular,Offline
+2409,2025-02-06,Lahore,Punjab,Retail,Flour 10kg,Grocery,20,1100,22000,800,6000,0,Card,Business,Offline
+2410,2025-02-11,Lahore,Punjab,Retail,Headphones,Electronics,1,2500,2125,1800,325,15,Bank Transfer,Regular,Offline
+2411,2025-01-19,Faisalabad,Punjab,Retail,Headphones,Electronics,1,2500,2375,1800,575,5,Card,Business,Offline
+2412,2025-02-16,Peshawar,KPK,Wholesale,Headphones,Electronics,1,2500,2500,1800,700,0,Bank Transfer,Business,Online
+2413,2025-02-24,Peshawar,KPK,Online,Rice 5kg,Grocery,4,1200,4320,900,720,10,Bank Transfer,Business,Offline
+2414,2025-01-18,Peshawar,KPK,Online,Mobile Charger,Electronics,10,800,7200,500,2200,10,Bank Transfer,Regular,Offline
+2415,2025-01-09,Peshawar,KPK,Wholesale,Rice 5kg,Grocery,7,1200,7560,900,1260,10,Cash,Business,Online
+2416,2025-03-21,Quetta,Balochistan,Retail,Shampoo,Personal Care,17,450,6502,300,1402,15,Card,Regular,Offline
+2417,2025-02-16,Islamabad,Capital,Retail,Sugar 5kg,Grocery,9,900,7290,650,1440,10,Bank Transfer,Business,Offline
+2418,2025-02-01,Quetta,Balochistan,Wholesale,Rice 5kg,Grocery,17,1200,17340,900,2040,15,Card,Regular,Online
+2419,2025-01-19,Lahore,Punjab,Retail,Sugar 5kg,Grocery,1,900,855,650,205,5,Cash,Business,Offline
+2420,2025-02-13,Quetta,Balochistan,Wholesale,Shampoo,Personal Care,17,450,7650,300,2550,0,Bank Transfer,Regular,Online
+2421,2025-03-27,Lahore,Punjab,Retail,Mobile Charger,Electronics,11,800,7920,500,2420,10,Bank Transfer,Regular,Online
+2422,2025-01-17,Peshawar,KPK,Wholesale,Cooking Oil 5L,Grocery,6,2500,12750,1900,1350,15,Cash,Business,Offline
+2423,2025-03-25,Lahore,Punjab,Online,Sugar 5kg,Grocery,13,900,11115,650,2665,5,Bank Transfer,Business,Offline
+2424,2025-02-15,Islamabad,Capital,Wholesale,Headphones,Electronics,20,2500,50000,1800,14000,0,Bank Transfer,Business,Online
+2425,2025-02-09,Quetta,Balochistan,Online,Laptop Stand,Electronics,19,3000,57000,2200,15200,0,Bank Transfer,Business,Online
+2426,2025-03-04,Faisalabad,Punjab,Online,Sugar 5kg,Grocery,4,900,3240,650,640,10,Card,Regular,Offline
+2427,2025-03-09,Quetta,Balochistan,Retail,Soap Pack,Personal Care,5,150,750,90,300,0,Cash,Business,Online
+2428,2025-01-10,Peshawar,KPK,Wholesale,Rice 5kg,Grocery,12,1200,12960,900,2160,10,Cash,Regular,Offline
+2429,2025-03-23,Peshawar,KPK,Online,Soap Pack,Personal Care,12,150,1800,90,720,0,Card,Business,Online
+2430,2025-04-01,Islamabad,Capital,Online,Cooking Oil 5L,Grocery,4,2500,9000,1900,1400,10,Cash,Regular,Offline
+2431,2025-04-01,Peshawar,KPK,Wholesale,Soap Pack,Personal Care,4,150,570,90,210,5,Card,Regular,Online
+2432,2025-01-04,Islamabad,Capital,Retail,Headphones,Electronics,12,2500,25500,1800,3900,15,Cash,Regular,Online
+2433,2025-03-31,Peshawar,KPK,Wholesale,Shampoo,Personal Care,20,450,9000,300,3000,0,Card,Regular,Offline
+2434,2025-01-18,Karachi,Sindh,Wholesale,Shampoo,Personal Care,12,450,4860,300,1260,10,Card,Business,Online
+2435,2025-03-15,Quetta,Balochistan,Wholesale,Cooking Oil 5L,Grocery,12,2500,25500,1900,2700,15,Card,Regular,Online
+2436,2025-03-22,Faisalabad,Punjab,Retail,Rice 5kg,Grocery,17,1200,18360,900,3060,10,Bank Transfer,Business,Online
+2437,2025-03-26,Lahore,Punjab,Retail,Laptop Stand,Electronics,20,3000,60000,2200,16000,0,Card,Regular,Online
+2438,2025-02-17,Karachi,Sindh,Retail,Shampoo,Personal Care,20,450,7650,300,1650,15,Card,Business,Offline
+2439,2025-02-04,Quetta,Balochistan,Online,Sugar 5kg,Grocery,13,900,9945,650,1495,15,Cash,Business,Offline
+2440,2025-03-08,Faisalabad,Punjab,Retail,Mobile Charger,Electronics,11,800,7920,500,2420,10,Cash,Business,Online
+2441,2025-03-06,Faisalabad,Punjab,Wholesale,Mobile Charger,Electronics,2,800,1360,500,360,15,Bank Transfer,Regular,Online
+2442,2025-03-06,Quetta,Balochistan,Wholesale,Mobile Charger,Electronics,9,800,7200,500,2700,0,Cash,Business,Online
+2443,2025-01-14,Quetta,Balochistan,Retail,Cooking Oil 5L,Grocery,5,2500,12500,1900,3000,0,Cash,Regular,Online
+2444,2025-02-18,Peshawar,KPK,Retail,Laptop Stand,Electronics,6,3000,18000,2200,4800,0,Card,Business,Online
+2445,2025-02-02,Islamabad,Capital,Online,Cooking Oil 5L,Grocery,3,2500,6375,1900,675,15,Bank Transfer,Business,Online
+2446,2025-01-20,Lahore,Punjab,Retail,Laptop Stand,Electronics,8,3000,20400,2200,2800,15,Cash,Regular,Offline
+2447,2025-02-05,Islamabad,Capital,Online,Headphones,Electronics,10,2500,23750,1800,5750,5,Card,Business,Online
+2448,2025-01-21,Peshawar,KPK,Retail,Sugar 5kg,Grocery,14,900,11340,650,2240,10,Bank Transfer,Regular,Online
+2449,2025-03-30,Lahore,Punjab,Retail,Cooking Oil 5L,Grocery,9,2500,22500,1900,5400,0,Bank Transfer,Regular,Offline
+2450,2025-03-01,Peshawar,KPK,Wholesale,Sugar 5kg,Grocery,5,900,4275,650,1025,5,Card,Business,Online
+2451,2025-02-16,Karachi,Sindh,Online,Soap Pack,Personal Care,9,150,1215,90,405,10,Bank Transfer,Business,Offline
+2452,2025-02-12,Faisalabad,Punjab,Wholesale,Mobile Charger,Electronics,5,800,3400,500,900,15,Card,Business,Online
+2453,2025-02-01,Peshawar,KPK,Wholesale,Laptop Stand,Electronics,19,3000,57000,2200,15200,0,Bank Transfer,Regular,Offline
+2454,2025-01-17,Islamabad,Capital,Online,Mobile Charger,Electronics,4,800,3040,500,1040,5,Cash,Business,Online
+2455,2025-01-19,Faisalabad,Punjab,Online,Soap Pack,Personal Care,10,150,1500,90,600,0,Card,Regular,Online
+2456,2025-01-17,Karachi,Sindh,Online,Cooking Oil 5L,Grocery,5,2500,11875,1900,2375,5,Card,Business,Online
+2457,2025-01-04,Faisalabad,Punjab,Online,Laptop Stand,Electronics,12,3000,30600,2200,4200,15,Bank Transfer,Regular,Offline
+2458,2025-01-30,Peshawar,KPK,Wholesale,Mobile Charger,Electronics,18,800,13680,500,4680,5,Card,Regular,Online
+2459,2025-01-12,Peshawar,KPK,Online,Laptop Stand,Electronics,17,3000,43350,2200,5950,15,Bank Transfer,Business,Offline
+2460,2025-01-11,Lahore,Punjab,Wholesale,Rice 5kg,Grocery,13,1200,14040,900,2340,10,Bank Transfer,Business,Online
+2461,2025-01-17,Faisalabad,Punjab,Wholesale,Flour 10kg,Grocery,5,1100,5225,800,1225,5,Cash,Regular,Offline
+2462,2025-02-19,Lahore,Punjab,Online,Shampoo,Personal Care,15,450,5737,300,1237,15,Cash,Business,Offline
+2463,2025-03-05,Karachi,Sindh,Wholesale,Headphones,Electronics,15,2500,37500,1800,10500,0,Card,Regular,Offline
+2464,2025-03-05,Islamabad,Capital,Online,Shampoo,Personal Care,14,450,5355,300,1155,15,Bank Transfer,Regular,Online
+2465,2025-03-04,Peshawar,KPK,Wholesale,Flour 10kg,Grocery,12,1100,13200,800,3600,0,Bank Transfer,Business,Online
+2466,2025-01-09,Islamabad,Capital,Wholesale,Shampoo,Personal Care,5,450,2137,300,637,5,Bank Transfer,Regular,Offline
+2467,2025-03-25,Islamabad,Capital,Retail,Rice 5kg,Grocery,7,1200,7560,900,1260,10,Cash,Regular,Offline
+2468,2025-01-19,Quetta,Balochistan,Wholesale,Sugar 5kg,Grocery,9,900,7695,650,1845,5,Card,Regular,Offline
+2469,2025-01-29,Peshawar,KPK,Retail,Flour 10kg,Grocery,6,1100,6600,800,1800,0,Card,Business,Online
+2470,2025-02-13,Karachi,Sindh,Online,Rice 5kg,Grocery,20,1200,21600,900,3600,10,Cash,Business,Offline
+2471,2025-02-01,Lahore,Punjab,Online,Rice 5kg,Grocery,9,1200,9720,900,1620,10,Card,Regular,Online
+2472,2025-03-22,Karachi,Sindh,Wholesale,Flour 10kg,Grocery,6,1100,5940,800,1140,10,Card,Business,Offline
+2473,2025-03-30,Faisalabad,Punjab,Wholesale,Flour 10kg,Grocery,4,1100,3960,800,760,10,Card,Business,Online
+2474,2025-03-20,Lahore,Punjab,Online,Cooking Oil 5L,Grocery,1,2500,2125,1900,225,15,Bank Transfer,Regular,Online
+2475,2025-03-04,Karachi,Sindh,Wholesale,Rice 5kg,Grocery,20,1200,24000,900,6000,0,Card,Business,Offline
+2476,2025-01-14,Peshawar,KPK,Wholesale,Cooking Oil 5L,Grocery,12,2500,27000,1900,4200,10,Bank Transfer,Business,Offline
+2477,2025-02-12,Quetta,Balochistan,Online,Laptop Stand,Electronics,5,3000,12750,2200,1750,15,Card,Business,Online
+2478,2025-01-18,Karachi,Sindh,Online,Shampoo,Personal Care,19,450,8550,300,2850,0,Bank Transfer,Regular,Online
+2479,2025-02-21,Islamabad,Capital,Retail,Soap Pack,Personal Care,10,150,1500,90,600,0,Card,Business,Online
+2480,2025-02-09,Karachi,Sindh,Retail,Soap Pack,Personal Care,18,150,2430,90,810,10,Bank Transfer,Regular,Offline
+2481,2025-03-30,Faisalabad,Punjab,Online,Shampoo,Personal Care,9,450,3442,300,742,15,Card,Business,Online
+2482,2025-02-23,Faisalabad,Punjab,Online,Rice 5kg,Grocery,9,1200,10260,900,2160,5,Card,Regular,Online
+2483,2025-02-26,Peshawar,KPK,Retail,Mobile Charger,Electronics,13,800,10400,500,3900,0,Bank Transfer,Business,Offline
+2484,2025-02-23,Islamabad,Capital,Wholesale,Laptop Stand,Electronics,15,3000,42750,2200,9750,5,Cash,Regular,Offline
+2485,2025-02-28,Karachi,Sindh,Online,Rice 5kg,Grocery,16,1200,18240,900,3840,5,Cash,Business,Offline
+2486,2025-01-28,Peshawar,KPK,Wholesale,Cooking Oil 5L,Grocery,4,2500,9000,1900,1400,10,Cash,Business,Online
+2487,2025-01-07,Quetta,Balochistan,Online,Soap Pack,Personal Care,7,150,945,90,315,10,Card,Business,Online
+2488,2025-01-28,Faisalabad,Punjab,Retail,Shampoo,Personal Care,11,450,4455,300,1155,10,Card,Regular,Online
+2489,2025-02-25,Faisalabad,Punjab,Wholesale,Shampoo,Personal Care,12,450,4860,300,1260,10,Card,Business,Offline
+2490,2025-02-06,Islamabad,Capital,Retail,Headphones,Electronics,4,2500,9000,1800,1800,10,Cash,Business,Offline
+2491,2025-02-17,Karachi,Sindh,Online,Mobile Charger,Electronics,18,800,12240,500,3240,15,Bank Transfer,Business,Offline
+2492,2025-03-21,Lahore,Punjab,Retail,Rice 5kg,Grocery,14,1200,15120,900,2520,10,Card,Business,Offline
+2493,2025-02-12,Peshawar,KPK,Wholesale,Soap Pack,Personal Care,13,150,1852,90,682,5,Cash,Business,Offline
+2494,2025-02-22,Karachi,Sindh,Online,Shampoo,Personal Care,17,450,7650,300,2550,0,Cash,Regular,Offline
+2495,2025-03-25,Islamabad,Capital,Retail,Cooking Oil 5L,Grocery,12,2500,30000,1900,7200,0,Cash,Regular,Offline
+2496,2025-02-28,Faisalabad,Punjab,Wholesale,Mobile Charger,Electronics,11,800,7480,500,1980,15,Bank Transfer,Regular,Online
+2497,2025-02-08,Quetta,Balochistan,Online,Rice 5kg,Grocery,11,1200,11220,900,1320,15,Cash,Business,Online
+2498,2025-03-30,Faisalabad,Punjab,Wholesale,Sugar 5kg,Grocery,1,900,900,650,250,0,Cash,Regular,Offline
+2499,2025-02-14,Islamabad,Capital,Retail,Rice 5kg,Grocery,14,1200,15120,900,2520,10,Bank Transfer,Regular,Online
+2500,2025-01-07,Lahore,Punjab,Online,Rice 5kg,Grocery,17,1200,20400,900,5100,0,Bank Transfer,Regular,Online
+2501,2025-03-24,Islamabad,Capital,Online,Mobile Charger,Electronics,14,800,11200,500,4200,0,Cash,Regular,Offline
+2502,2025-02-18,Lahore,Punjab,Online,Shampoo,Personal Care,6,450,2700,300,900,0,Card,Regular,Online
+2503,2025-03-15,Peshawar,KPK,Retail,Flour 10kg,Grocery,18,1100,16830,800,2430,15,Cash,Business,Online
+2504,2025-02-14,Karachi,Sindh,Retail,Flour 10kg,Grocery,14,1100,14630,800,3430,5,Cash,Regular,Offline
+2505,2025-02-14,Peshawar,KPK,Retail,Shampoo,Personal Care,3,450,1147,300,247,15,Bank Transfer,Regular,Online
+2506,2025-03-22,Peshawar,KPK,Wholesale,Headphones,Electronics,18,2500,40500,1800,8100,10,Card,Regular,Online
+2507,2025-03-14,Quetta,Balochistan,Retail,Soap Pack,Personal Care,10,150,1275,90,375,15,Bank Transfer,Regular,Online
+2508,2025-02-26,Quetta,Balochistan,Wholesale,Laptop Stand,Electronics,2,3000,5700,2200,1300,5,Bank Transfer,Business,Online
+2509,2025-01-06,Peshawar,KPK,Online,Mobile Charger,Electronics,5,800,3400,500,900,15,Card,Regular,Offline
+2510,2025-02-17,Peshawar,KPK,Retail,Laptop Stand,Electronics,1,3000,2700,2200,500,10,Bank Transfer,Business,Online
+2511,2025-01-24,Faisalabad,Punjab,Online,Laptop Stand,Electronics,2,3000,6000,2200,1600,0,Bank Transfer,Regular,Online
+2512,2025-03-26,Karachi,Sindh,Retail,Mobile Charger,Electronics,8,800,5440,500,1440,15,Cash,Regular,Offline
+2513,2025-01-02,Quetta,Balochistan,Wholesale,Cooking Oil 5L,Grocery,13,2500,32500,1900,7800,0,Cash,Business,Offline
+2514,2025-03-07,Quetta,Balochistan,Retail,Sugar 5kg,Grocery,2,900,1620,650,320,10,Bank Transfer,Regular,Online
+2515,2025-01-17,Karachi,Sindh,Retail,Flour 10kg,Grocery,16,1100,17600,800,4800,0,Card,Business,Offline
+2516,2025-02-13,Peshawar,KPK,Wholesale,Mobile Charger,Electronics,20,800,14400,500,4400,10,Card,Regular,Offline
+2517,2025-03-14,Islamabad,Capital,Online,Mobile Charger,Electronics,12,800,8160,500,2160,15,Bank Transfer,Business,Offline
+2518,2025-02-25,Quetta,Balochistan,Wholesale,Cooking Oil 5L,Grocery,18,2500,45000,1900,10800,0,Cash,Regular,Offline
+2519,2025-03-13,Faisalabad,Punjab,Wholesale,Shampoo,Personal Care,15,450,6750,300,2250,0,Card,Regular,Offline
+2520,2025-02-15,Lahore,Punjab,Retail,Soap Pack,Personal Care,16,150,2400,90,960,0,Cash,Regular,Offline
+2521,2025-02-03,Lahore,Punjab,Retail,Headphones,Electronics,16,2500,34000,1800,5200,15,Card,Regular,Offline
+2522,2025-02-01,Islamabad,Capital,Retail,Sugar 5kg,Grocery,4,900,3240,650,640,10,Cash,Business,Online
+2523,2025-01-08,Faisalabad,Punjab,Online,Flour 10kg,Grocery,19,1100,19855,800,4655,5,Cash,Regular,Offline
+2524,2025-03-05,Lahore,Punjab,Retail,Sugar 5kg,Grocery,19,900,17100,650,4750,0,Bank Transfer,Regular,Offline
+2525,2025-03-03,Quetta,Balochistan,Online,Laptop Stand,Electronics,14,3000,39900,2200,9100,5,Cash,Regular,Online
+2526,2025-03-10,Lahore,Punjab,Wholesale,Soap Pack,Personal Care,12,150,1710,90,630,5,Cash,Regular,Offline
+2527,2025-01-31,Lahore,Punjab,Online,Laptop Stand,Electronics,3,3000,7650,2200,1050,15,Bank Transfer,Regular,Offline
+2528,2025-01-20,Faisalabad,Punjab,Wholesale,Flour 10kg,Grocery,8,1100,7480,800,1080,15,Card,Regular,Online
+2529,2025-03-10,Islamabad,Capital,Online,Shampoo,Personal Care,9,450,3645,300,945,10,Cash,Regular,Offline
+2530,2025-03-13,Quetta,Balochistan,Retail,Headphones,Electronics,10,2500,21250,1800,3250,15,Bank Transfer,Business,Offline
+2531,2025-01-06,Quetta,Balochistan,Online,Headphones,Electronics,13,2500,30875,1800,7475,5,Bank Transfer,Business,Online
+2532,2025-03-26,Karachi,Sindh,Wholesale,Flour 10kg,Grocery,11,1100,10285,800,1485,15,Card,Business,Online
+2533,2025-03-05,Peshawar,KPK,Online,Soap Pack,Personal Care,13,150,1950,90,780,0,Cash,Business,Offline
+2534,2025-03-16,Quetta,Balochistan,Wholesale,Headphones,Electronics,4,2500,9500,1800,2300,5,Card,Business,Online
+2535,2025-02-11,Peshawar,KPK,Retail,Flour 10kg,Grocery,8,1100,7920,800,1520,10,Cash,Business,Online
+2536,2025-03-03,Lahore,Punjab,Wholesale,Headphones,Electronics,3,2500,7125,1800,1725,5,Card,Business,Online
+2537,2025-03-29,Peshawar,KPK,Retail,Mobile Charger,Electronics,3,800,2040,500,540,15,Card,Business,Offline
+2538,2025-01-03,Karachi,Sindh,Online,Flour 10kg,Grocery,10,1100,11000,800,3000,0,Bank Transfer,Regular,Online
+2539,2025-02-24,Karachi,Sindh,Retail,Soap Pack,Personal Care,1,150,127,90,37,15,Card,Business,Online
+2540,2025-03-03,Peshawar,KPK,Online,Headphones,Electronics,16,2500,34000,1800,5200,15,Cash,Business,Offline
+2541,2025-03-28,Lahore,Punjab,Wholesale,Flour 10kg,Grocery,5,1100,4675,800,675,15,Card,Business,Offline
+2542,2025-03-21,Faisalabad,Punjab,Retail,Rice 5kg,Grocery,8,1200,9120,900,1920,5,Bank Transfer,Business,Online
+2543,2025-01-27,Quetta,Balochistan,Online,Sugar 5kg,Grocery,16,900,12240,650,1840,15,Cash,Regular,Offline
+2544,2025-01-23,Quetta,Balochistan,Online,Rice 5kg,Grocery,12,1200,12240,900,1440,15,Cash,Business,Online
+2545,2025-02-19,Quetta,Balochistan,Wholesale,Flour 10kg,Grocery,18,1100,16830,800,2430,15,Cash,Regular,Offline
+2546,2025-03-18,Faisalabad,Punjab,Wholesale,Sugar 5kg,Grocery,13,900,10530,650,2080,10,Card,Regular,Online
+2547,2025-02-11,Peshawar,KPK,Retail,Mobile Charger,Electronics,12,800,8160,500,2160,15,Cash,Regular,Offline
+2548,2025-01-29,Islamabad,Capital,Online,Sugar 5kg,Grocery,11,900,8415,650,1265,15,Card,Business,Offline
+2549,2025-03-03,Karachi,Sindh,Wholesale,Rice 5kg,Grocery,16,1200,16320,900,1920,15,Bank Transfer,Regular,Online
+2550,2025-03-25,Faisalabad,Punjab,Retail,Flour 10kg,Grocery,20,1100,20900,800,4900,5,Cash,Business,Offline
+2551,2025-02-14,Peshawar,KPK,Online,Rice 5kg,Grocery,20,1200,20400,900,2400,15,Cash,Regular,Online
+2552,2025-01-02,Lahore,Punjab,Online,Headphones,Electronics,2,2500,4250,1800,650,15,Cash,Regular,Online
+2553,2025-01-02,Quetta,Balochistan,Retail,Flour 10kg,Grocery,15,1100,14025,800,2025,15,Cash,Regular,Offline
+2554,2025-02-19,Quetta,Balochistan,Wholesale,Headphones,Electronics,6,2500,12750,1800,1950,15,Card,Regular,Offline
+2555,2025-01-22,Peshawar,KPK,Online,Shampoo,Personal Care,20,450,8550,300,2550,5,Card,Business,Offline
+2556,2025-03-18,Lahore,Punjab,Online,Mobile Charger,Electronics,13,800,9880,500,3380,5,Bank Transfer,Regular,Online
+2557,2025-02-18,Faisalabad,Punjab,Wholesale,Laptop Stand,Electronics,7,3000,21000,2200,5600,0,Bank Transfer,Regular,Offline
+2558,2025-03-25,Islamabad,Capital,Retail,Rice 5kg,Grocery,6,1200,6840,900,1440,5,Card,Regular,Online
+2559,2025-01-13,Peshawar,KPK,Retail,Headphones,Electronics,3,2500,6375,1800,975,15,Cash,Regular,Offline
+2560,2025-03-14,Quetta,Balochistan,Wholesale,Flour 10kg,Grocery,1,1100,1100,800,300,0,Cash,Business,Online
+2561,2025-02-15,Islamabad,Capital,Retail,Rice 5kg,Grocery,18,1200,20520,900,4320,5,Cash,Regular,Online
+2562,2025-01-30,Islamabad,Capital,Retail,Soap Pack,Personal Care,2,150,270,90,90,10,Cash,Regular,Online
+2563,2025-03-02,Islamabad,Capital,Retail,Laptop Stand,Electronics,9,3000,24300,2200,4500,10,Cash,Business,Offline
+2564,2025-01-12,Lahore,Punjab,Wholesale,Rice 5kg,Grocery,8,1200,8640,900,1440,10,Bank Transfer,Business,Offline
+2565,2025-03-08,Quetta,Balochistan,Wholesale,Cooking Oil 5L,Grocery,13,2500,27625,1900,2925,15,Cash,Business,Online
+2566,2025-01-07,Lahore,Punjab,Retail,Mobile Charger,Electronics,8,800,6080,500,2080,5,Bank Transfer,Business,Offline
+2567,2025-01-06,Quetta,Balochistan,Retail,Laptop Stand,Electronics,8,3000,21600,2200,4000,10,Card,Business,Online
+2568,2025-02-17,Peshawar,KPK,Wholesale,Mobile Charger,Electronics,7,800,5040,500,1540,10,Cash,Regular,Online
+2569,2025-03-13,Faisalabad,Punjab,Wholesale,Soap Pack,Personal Care,2,150,255,90,75,15,Card,Regular,Offline
+2570,2025-01-15,Lahore,Punjab,Online,Mobile Charger,Electronics,15,800,11400,500,3900,5,Cash,Business,Online
+2571,2025-02-26,Peshawar,KPK,Wholesale,Flour 10kg,Grocery,4,1100,3740,800,540,15,Cash,Business,Offline
+2572,2025-01-28,Quetta,Balochistan,Wholesale,Soap Pack,Personal Care,15,150,2250,90,900,0,Bank Transfer,Business,Offline
+2573,2025-03-15,Faisalabad,Punjab,Online,Soap Pack,Personal Care,19,150,2850,90,1140,0,Card,Regular,Online
+2574,2025-02-26,Karachi,Sindh,Online,Rice 5kg,Grocery,1,1200,1080,900,180,10,Bank Transfer,Regular,Online
+2575,2025-03-16,Peshawar,KPK,Online,Sugar 5kg,Grocery,3,900,2430,650,480,10,Card,Business,Online
+2576,2025-03-13,Lahore,Punjab,Online,Sugar 5kg,Grocery,8,900,7200,650,2000,0,Cash,Regular,Online
+2577,2025-02-28,Islamabad,Capital,Online,Headphones,Electronics,5,2500,11250,1800,2250,10,Card,Business,Offline
+2578,2025-03-17,Faisalabad,Punjab,Retail,Laptop Stand,Electronics,4,3000,10200,2200,1400,15,Card,Business,Online
+2579,2025-02-23,Quetta,Balochistan,Wholesale,Shampoo,Personal Care,4,450,1710,300,510,5,Bank Transfer,Business,Offline
+2580,2025-03-11,Faisalabad,Punjab,Wholesale,Headphones,Electronics,12,2500,28500,1800,6900,5,Bank Transfer,Business,Offline
+2581,2025-03-20,Peshawar,KPK,Wholesale,Soap Pack,Personal Care,15,150,2025,90,675,10,Bank Transfer,Business,Online
+2582,2025-01-04,Lahore,Punjab,Wholesale,Shampoo,Personal Care,12,450,5130,300,1530,5,Bank Transfer,Business,Online
+2583,2025-03-30,Peshawar,KPK,Retail,Headphones,Electronics,16,2500,38000,1800,9200,5,Cash,Regular,Offline
+2584,2025-02-22,Faisalabad,Punjab,Online,Laptop Stand,Electronics,18,3000,51300,2200,11700,5,Card,Regular,Online
+2585,2025-01-29,Lahore,Punjab,Online,Sugar 5kg,Grocery,17,900,13005,650,1955,15,Card,Business,Online
+2586,2025-02-20,Islamabad,Capital,Wholesale,Shampoo,Personal Care,16,450,6120,300,1320,15,Bank Transfer,Business,Offline
+2587,2025-02-10,Faisalabad,Punjab,Retail,Rice 5kg,Grocery,10,1200,10200,900,1200,15,Cash,Regular,Online
+2588,2025-03-12,Islamabad,Capital,Retail,Laptop Stand,Electronics,12,3000,36000,2200,9600,0,Bank Transfer,Regular,Offline
+2589,2025-02-09,Karachi,Sindh,Retail,Flour 10kg,Grocery,4,1100,3960,800,760,10,Card,Regular,Offline
+2590,2025-02-22,Faisalabad,Punjab,Retail,Rice 5kg,Grocery,15,1200,17100,900,3600,5,Cash,Regular,Online
+2591,2025-03-07,Peshawar,KPK,Wholesale,Flour 10kg,Grocery,6,1100,6270,800,1470,5,Card,Business,Online
+2592,2025-03-19,Karachi,Sindh,Retail,Headphones,Electronics,17,2500,38250,1800,7650,10,Bank Transfer,Business,Offline
+2593,2025-03-01,Quetta,Balochistan,Retail,Shampoo,Personal Care,13,450,5557,300,1657,5,Card,Business,Online
+2594,2025-03-15,Quetta,Balochistan,Retail,Rice 5kg,Grocery,7,1200,7980,900,1680,5,Bank Transfer,Business,Offline
+2595,2025-01-18,Faisalabad,Punjab,Retail,Laptop Stand,Electronics,4,3000,11400,2200,2600,5,Cash,Business,Online
+2596,2025-01-31,Lahore,Punjab,Wholesale,Headphones,Electronics,19,2500,47500,1800,13300,0,Card,Business,Offline
+2597,2025-03-28,Islamabad,Capital,Wholesale,Mobile Charger,Electronics,20,800,16000,500,6000,0,Card,Regular,Offline
+2598,2025-01-22,Karachi,Sindh,Online,Sugar 5kg,Grocery,2,900,1620,650,320,10,Card,Business,Offline
+2599,2025-02-18,Karachi,Sindh,Retail,Rice 5kg,Grocery,8,1200,9120,900,1920,5,Cash,Regular,Online
+2600,2025-02-04,Lahore,Punjab,Wholesale,Headphones,Electronics,9,2500,19125,1800,2925,15,Card,Regular,Online
+2601,2025-03-27,Peshawar,KPK,Retail,Rice 5kg,Grocery,16,1200,19200,900,4800,0,Bank Transfer,Business,Online
+2602,2025-02-04,Faisalabad,Punjab,Online,Sugar 5kg,Grocery,13,900,10530,650,2080,10,Cash,Regular,Online
+2603,2025-03-27,Islamabad,Capital,Wholesale,Soap Pack,Personal Care,16,150,2160,90,720,10,Bank Transfer,Regular,Offline
+2604,2025-02-09,Karachi,Sindh,Online,Soap Pack,Personal Care,10,150,1275,90,375,15,Cash,Business,Offline
+2605,2025-03-24,Karachi,Sindh,Online,Cooking Oil 5L,Grocery,4,2500,8500,1900,900,15,Bank Transfer,Regular,Offline
+2606,2025-01-28,Quetta,Balochistan,Online,Flour 10kg,Grocery,16,1100,14960,800,2160,15,Bank Transfer,Business,Offline
+2607,2025-02-26,Lahore,Punjab,Retail,Headphones,Electronics,15,2500,35625,1800,8625,5,Bank Transfer,Business,Online
+2608,2025-03-06,Quetta,Balochistan,Online,Flour 10kg,Grocery,6,1100,6270,800,1470,5,Cash,Business,Online
+2609,2025-01-03,Faisalabad,Punjab,Wholesale,Soap Pack,Personal Care,20,150,3000,90,1200,0,Card,Regular,Online
+2610,2025-03-16,Faisalabad,Punjab,Retail,Rice 5kg,Grocery,8,1200,8160,900,960,15,Card,Regular,Offline
+2611,2025-02-21,Faisalabad,Punjab,Retail,Soap Pack,Personal Care,16,150,2040,90,600,15,Card,Business,Online
+2612,2025-02-08,Quetta,Balochistan,Online,Cooking Oil 5L,Grocery,1,2500,2375,1900,475,5,Bank Transfer,Regular,Online
+2613,2025-02-10,Faisalabad,Punjab,Online,Mobile Charger,Electronics,18,800,13680,500,4680,5,Card,Business,Offline
+2614,2025-04-01,Peshawar,KPK,Wholesale,Cooking Oil 5L,Grocery,4,2500,9000,1900,1400,10,Card,Regular,Online
+2615,2025-01-27,Peshawar,KPK,Online,Soap Pack,Personal Care,9,150,1282,90,472,5,Bank Transfer,Business,Offline
+2616,2025-03-09,Quetta,Balochistan,Online,Headphones,Electronics,13,2500,30875,1800,7475,5,Bank Transfer,Business,Online
+2617,2025-01-07,Peshawar,KPK,Online,Headphones,Electronics,2,2500,5000,1800,1400,0,Card,Regular,Online
+2618,2025-01-21,Lahore,Punjab,Retail,Cooking Oil 5L,Grocery,2,2500,4250,1900,450,15,Card,Regular,Offline
+2619,2025-02-22,Lahore,Punjab,Online,Flour 10kg,Grocery,9,1100,8910,800,1710,10,Cash,Regular,Online
+2620,2025-02-04,Faisalabad,Punjab,Wholesale,Sugar 5kg,Grocery,13,900,10530,650,2080,10,Card,Regular,Online
+2621,2025-02-25,Quetta,Balochistan,Online,Sugar 5kg,Grocery,14,900,10710,650,1610,15,Bank Transfer,Business,Offline
+2622,2025-03-19,Quetta,Balochistan,Online,Soap Pack,Personal Care,2,150,285,90,105,5,Bank Transfer,Business,Offline
+2623,2025-03-05,Faisalabad,Punjab,Online,Shampoo,Personal Care,5,450,1912,300,412,15,Card,Business,Online
+2624,2025-03-03,Islamabad,Capital,Retail,Sugar 5kg,Grocery,14,900,11970,650,2870,5,Cash,Regular,Offline
+2625,2025-01-24,Islamabad,Capital,Online,Soap Pack,Personal Care,15,150,2025,90,675,10,Bank Transfer,Business,Offline
+2626,2025-02-15,Karachi,Sindh,Wholesale,Soap Pack,Personal Care,20,150,2550,90,750,15,Bank Transfer,Regular,Offline
+2627,2025-02-19,Peshawar,KPK,Retail,Sugar 5kg,Grocery,13,900,9945,650,1495,15,Bank Transfer,Business,Online
+2628,2025-02-03,Quetta,Balochistan,Wholesale,Sugar 5kg,Grocery,14,900,11970,650,2870,5,Cash,Regular,Online
+2629,2025-03-06,Quetta,Balochistan,Retail,Sugar 5kg,Grocery,11,900,8415,650,1265,15,Card,Regular,Online
+2630,2025-01-12,Peshawar,KPK,Retail,Mobile Charger,Electronics,10,800,7600,500,2600,5,Cash,Regular,Online
+2631,2025-01-19,Karachi,Sindh,Online,Laptop Stand,Electronics,20,3000,60000,2200,16000,0,Card,Business,Offline
+2632,2025-02-21,Quetta,Balochistan,Retail,Flour 10kg,Grocery,9,1100,9900,800,2700,0,Card,Business,Offline
+2633,2025-03-20,Quetta,Balochistan,Wholesale,Shampoo,Personal Care,15,450,6075,300,1575,10,Card,Business,Offline
+2634,2025-02-07,Lahore,Punjab,Retail,Cooking Oil 5L,Grocery,18,2500,45000,1900,10800,0,Card,Business,Online
+2635,2025-01-14,Lahore,Punjab,Wholesale,Shampoo,Personal Care,12,450,5130,300,1530,5,Bank Transfer,Regular,Offline
+2636,2025-03-16,Islamabad,Capital,Online,Headphones,Electronics,6,2500,15000,1800,4200,0,Card,Business,Online
+2637,2025-03-08,Peshawar,KPK,Online,Mobile Charger,Electronics,4,800,2720,500,720,15,Card,Regular,Offline
+2638,2025-03-01,Peshawar,KPK,Retail,Shampoo,Personal Care,17,450,7650,300,2550,0,Bank Transfer,Regular,Offline
+2639,2025-02-08,Lahore,Punjab,Wholesale,Headphones,Electronics,7,2500,15750,1800,3150,10,Card,Regular,Online
+2640,2025-03-10,Lahore,Punjab,Retail,Sugar 5kg,Grocery,10,900,7650,650,1150,15,Cash,Business,Online
+2641,2025-03-03,Peshawar,KPK,Wholesale,Soap Pack,Personal Care,12,150,1530,90,450,15,Card,Business,Online
+2642,2025-01-10,Peshawar,KPK,Wholesale,Rice 5kg,Grocery,2,1200,2400,900,600,0,Bank Transfer,Regular,Offline
+2643,2025-03-08,Quetta,Balochistan,Online,Laptop Stand,Electronics,11,3000,31350,2200,7150,5,Card,Business,Online
+2644,2025-03-10,Karachi,Sindh,Retail,Cooking Oil 5L,Grocery,12,2500,28500,1900,5700,5,Card,Business,Online
+2645,2025-03-12,Quetta,Balochistan,Wholesale,Shampoo,Personal Care,18,450,8100,300,2700,0,Card,Regular,Online
+2646,2025-01-14,Islamabad,Capital,Wholesale,Rice 5kg,Grocery,3,1200,3060,900,360,15,Card,Business,Online
+2647,2025-01-30,Peshawar,KPK,Wholesale,Laptop Stand,Electronics,15,3000,42750,2200,9750,5,Cash,Business,Online
+2648,2025-02-12,Quetta,Balochistan,Wholesale,Soap Pack,Personal Care,10,150,1500,90,600,0,Card,Regular,Offline
+2649,2025-03-23,Karachi,Sindh,Wholesale,Soap Pack,Personal Care,19,150,2707,90,997,5,Cash,Business,Offline
+2650,2025-03-31,Faisalabad,Punjab,Online,Sugar 5kg,Grocery,9,900,8100,650,2250,0,Cash,Regular,Offline
+2651,2025-01-31,Faisalabad,Punjab,Online,Mobile Charger,Electronics,17,800,11560,500,3060,15,Bank Transfer,Regular,Online
+2652,2025-01-11,Peshawar,KPK,Wholesale,Laptop Stand,Electronics,16,3000,40800,2200,5600,15,Bank Transfer,Regular,Offline
+2653,2025-02-01,Quetta,Balochistan,Retail,Shampoo,Personal Care,20,450,8550,300,2550,5,Bank Transfer,Regular,Offline
+2654,2025-01-01,Karachi,Sindh,Retail,Soap Pack,Personal Care,12,150,1530,90,450,15,Bank Transfer,Business,Offline
+2655,2025-03-14,Islamabad,Capital,Retail,Laptop Stand,Electronics,9,3000,24300,2200,4500,10,Card,Regular,Offline
+2656,2025-01-09,Peshawar,KPK,Retail,Mobile Charger,Electronics,20,800,15200,500,5200,5,Bank Transfer,Business,Offline
+2657,2025-02-11,Faisalabad,Punjab,Retail,Mobile Charger,Electronics,8,800,6080,500,2080,5,Cash,Business,Offline
+2658,2025-01-31,Karachi,Sindh,Wholesale,Flour 10kg,Grocery,16,1100,14960,800,2160,15,Card,Business,Online
+2659,2025-03-04,Faisalabad,Punjab,Retail,Soap Pack,Personal Care,17,150,2167,90,637,15,Card,Regular,Online
+2660,2025-03-06,Faisalabad,Punjab,Retail,Sugar 5kg,Grocery,15,900,12825,650,3075,5,Cash,Regular,Offline
+2661,2025-01-28,Peshawar,KPK,Online,Headphones,Electronics,11,2500,24750,1800,4950,10,Card,Regular,Online
+2662,2025-02-06,Faisalabad,Punjab,Retail,Laptop Stand,Electronics,4,3000,10800,2200,2000,10,Cash,Business,Offline
+2663,2025-02-10,Karachi,Sindh,Online,Flour 10kg,Grocery,19,1100,18810,800,3610,10,Bank Transfer,Business,Offline
+2664,2025-03-21,Lahore,Punjab,Retail,Rice 5kg,Grocery,9,1200,9180,900,1080,15,Cash,Business,Online
+2665,2025-03-31,Islamabad,Capital,Online,Mobile Charger,Electronics,8,800,5760,500,1760,10,Card,Regular,Offline
+2666,2025-02-19,Faisalabad,Punjab,Online,Soap Pack,Personal Care,20,150,2700,90,900,10,Bank Transfer,Business,Offline
+2667,2025-02-14,Islamabad,Capital,Online,Mobile Charger,Electronics,12,800,9120,500,3120,5,Bank Transfer,Business,Offline
+2668,2025-02-27,Lahore,Punjab,Wholesale,Flour 10kg,Grocery,16,1100,14960,800,2160,15,Card,Regular,Offline
+2669,2025-02-09,Karachi,Sindh,Wholesale,Shampoo,Personal Care,19,450,7695,300,1995,10,Card,Business,Offline
+2670,2025-03-11,Peshawar,KPK,Wholesale,Cooking Oil 5L,Grocery,2,2500,4250,1900,450,15,Bank Transfer,Regular,Offline
+2671,2025-03-14,Peshawar,KPK,Retail,Shampoo,Personal Care,15,450,6412,300,1912,5,Bank Transfer,Business,Online
+2672,2025-03-08,Quetta,Balochistan,Retail,Cooking Oil 5L,Grocery,17,2500,36125,1900,3825,15,Card,Business,Offline
+2673,2025-01-13,Peshawar,KPK,Retail,Sugar 5kg,Grocery,3,900,2430,650,480,10,Bank Transfer,Business,Online
+2674,2025-01-01,Peshawar,KPK,Wholesale,Soap Pack,Personal Care,18,150,2295,90,675,15,Cash,Business,Online
+2675,2025-01-23,Lahore,Punjab,Wholesale,Mobile Charger,Electronics,3,800,2280,500,780,5,Card,Business,Offline
+2676,2025-01-12,Lahore,Punjab,Retail,Sugar 5kg,Grocery,16,900,13680,650,3280,5,Bank Transfer,Business,Offline
+2677,2025-02-25,Faisalabad,Punjab,Wholesale,Cooking Oil 5L,Grocery,1,2500,2250,1900,350,10,Bank Transfer,Regular,Online
+2678,2025-02-16,Karachi,Sindh,Wholesale,Headphones,Electronics,9,2500,20250,1800,4050,10,Cash,Business,Offline
+2679,2025-01-08,Quetta,Balochistan,Wholesale,Laptop Stand,Electronics,3,3000,8100,2200,1500,10,Card,Business,Offline
+2680,2025-04-01,Islamabad,Capital,Wholesale,Cooking Oil 5L,Grocery,13,2500,29250,1900,4550,10,Cash,Business,Offline
+2681,2025-02-08,Faisalabad,Punjab,Online,Mobile Charger,Electronics,15,800,10800,500,3300,10,Card,Business,Offline
+2682,2025-03-09,Quetta,Balochistan,Retail,Cooking Oil 5L,Grocery,6,2500,15000,1900,3600,0,Cash,Business,Online
+2683,2025-03-23,Lahore,Punjab,Retail,Rice 5kg,Grocery,12,1200,13680,900,2880,5,Cash,Regular,Offline
+2684,2025-02-11,Karachi,Sindh,Wholesale,Flour 10kg,Grocery,9,1100,9900,800,2700,0,Card,Business,Offline
+2685,2025-02-09,Lahore,Punjab,Wholesale,Soap Pack,Personal Care,17,150,2422,90,892,5,Bank Transfer,Business,Offline
+2686,2025-02-11,Faisalabad,Punjab,Wholesale,Rice 5kg,Grocery,7,1200,7980,900,1680,5,Cash,Regular,Offline
+2687,2025-02-06,Lahore,Punjab,Wholesale,Sugar 5kg,Grocery,7,900,5355,650,805,15,Card,Business,Offline
+2688,2025-02-05,Karachi,Sindh,Online,Shampoo,Personal Care,2,450,900,300,300,0,Card,Regular,Offline
+2689,2025-03-09,Peshawar,KPK,Online,Soap Pack,Personal Care,7,150,892,90,262,15,Bank Transfer,Regular,Offline
+2690,2025-03-28,Peshawar,KPK,Retail,Mobile Charger,Electronics,7,800,5600,500,2100,0,Cash,Regular,Offline
+2691,2025-02-25,Quetta,Balochistan,Retail,Soap Pack,Personal Care,16,150,2400,90,960,0,Cash,Business,Online
+2692,2025-01-30,Lahore,Punjab,Retail,Sugar 5kg,Grocery,18,900,16200,650,4500,0,Bank Transfer,Business,Online
+2693,2025-02-22,Islamabad,Capital,Retail,Soap Pack,Personal Care,4,150,540,90,180,10,Cash,Regular,Online
+2694,2025-03-19,Islamabad,Capital,Retail,Soap Pack,Personal Care,20,150,3000,90,1200,0,Card,Business,Offline
+2695,2025-03-09,Lahore,Punjab,Online,Soap Pack,Personal Care,15,150,2250,90,900,0,Cash,Business,Offline
+2696,2025-01-13,Quetta,Balochistan,Retail,Mobile Charger,Electronics,5,800,3800,500,1300,5,Cash,Regular,Offline
+2697,2025-01-10,Lahore,Punjab,Retail,Sugar 5kg,Grocery,14,900,11970,650,2870,5,Cash,Business,Online
+2698,2025-02-06,Islamabad,Capital,Online,Rice 5kg,Grocery,7,1200,7560,900,1260,10,Cash,Business,Offline
+2699,2025-03-21,Karachi,Sindh,Online,Mobile Charger,Electronics,8,800,6400,500,2400,0,Bank Transfer,Business,Offline
+2700,2025-03-22,Quetta,Balochistan,Retail,Laptop Stand,Electronics,8,3000,24000,2200,6400,0,Cash,Business,Online
+2701,2025-03-07,Lahore,Punjab,Retail,Shampoo,Personal Care,18,450,7290,300,1890,10,Cash,Regular,Online
+2702,2025-02-12,Peshawar,KPK,Online,Sugar 5kg,Grocery,6,900,4590,650,690,15,Cash,Business,Online
+2703,2025-02-28,Quetta,Balochistan,Online,Soap Pack,Personal Care,5,150,637,90,187,15,Card,Business,Offline
+2704,2025-01-22,Lahore,Punjab,Online,Headphones,Electronics,2,2500,4500,1800,900,10,Card,Regular,Online
+2705,2025-01-14,Faisalabad,Punjab,Wholesale,Rice 5kg,Grocery,8,1200,8160,900,960,15,Card,Regular,Online
+2706,2025-03-31,Karachi,Sindh,Wholesale,Cooking Oil 5L,Grocery,10,2500,22500,1900,3500,10,Cash,Regular,Online
+2707,2025-01-20,Karachi,Sindh,Wholesale,Sugar 5kg,Grocery,7,900,5670,650,1120,10,Cash,Regular,Offline
+2708,2025-01-15,Islamabad,Capital,Wholesale,Soap Pack,Personal Care,19,150,2565,90,855,10,Bank Transfer,Business,Offline
+2709,2025-01-07,Islamabad,Capital,Online,Shampoo,Personal Care,17,450,6885,300,1785,10,Card,Regular,Online
+2710,2025-02-21,Islamabad,Capital,Online,Laptop Stand,Electronics,5,3000,13500,2200,2500,10,Bank Transfer,Regular,Online
+2711,2025-01-12,Quetta,Balochistan,Online,Laptop Stand,Electronics,17,3000,45900,2200,8500,10,Cash,Business,Online
+2712,2025-02-13,Lahore,Punjab,Retail,Flour 10kg,Grocery,18,1100,17820,800,3420,10,Cash,Regular,Offline
+2713,2025-02-11,Faisalabad,Punjab,Retail,Flour 10kg,Grocery,1,1100,1100,800,300,0,Cash,Business,Offline
+2714,2025-01-10,Quetta,Balochistan,Wholesale,Flour 10kg,Grocery,17,1100,15895,800,2295,15,Cash,Regular,Online
+2715,2025-01-10,Islamabad,Capital,Retail,Sugar 5kg,Grocery,12,900,9180,650,1380,15,Bank Transfer,Regular,Offline
+2716,2025-02-04,Peshawar,KPK,Retail,Shampoo,Personal Care,18,450,7290,300,1890,10,Cash,Business,Offline
+2717,2025-01-04,Peshawar,KPK,Wholesale,Soap Pack,Personal Care,2,150,285,90,105,5,Cash,Regular,Offline
+2718,2025-02-03,Karachi,Sindh,Online,Shampoo,Personal Care,19,450,7695,300,1995,10,Bank Transfer,Regular,Offline
+2719,2025-02-21,Quetta,Balochistan,Online,Rice 5kg,Grocery,3,1200,3060,900,360,15,Card,Regular,Offline
+2720,2025-01-27,Lahore,Punjab,Online,Sugar 5kg,Grocery,16,900,12240,650,1840,15,Bank Transfer,Business,Offline
+2721,2025-03-25,Quetta,Balochistan,Retail,Shampoo,Personal Care,15,450,6412,300,1912,5,Card,Regular,Offline
+2722,2025-03-04,Quetta,Balochistan,Online,Soap Pack,Personal Care,11,150,1402,90,412,15,Bank Transfer,Regular,Offline
+2723,2025-01-02,Faisalabad,Punjab,Online,Mobile Charger,Electronics,8,800,6080,500,2080,5,Card,Regular,Offline
+2724,2025-02-08,Quetta,Balochistan,Wholesale,Mobile Charger,Electronics,20,800,13600,500,3600,15,Bank Transfer,Business,Offline
+2725,2025-02-15,Faisalabad,Punjab,Retail,Rice 5kg,Grocery,7,1200,7560,900,1260,10,Cash,Regular,Online
+2726,2025-03-14,Quetta,Balochistan,Wholesale,Headphones,Electronics,6,2500,12750,1800,1950,15,Bank Transfer,Business,Online
+2727,2025-01-01,Faisalabad,Punjab,Online,Cooking Oil 5L,Grocery,1,2500,2250,1900,350,10,Cash,Business,Offline
+2728,2025-02-09,Quetta,Balochistan,Retail,Laptop Stand,Electronics,1,3000,3000,2200,800,0,Card,Business,Offline
+2729,2025-02-17,Peshawar,KPK,Online,Laptop Stand,Electronics,1,3000,2550,2200,350,15,Cash,Business,Online
+2730,2025-01-25,Lahore,Punjab,Online,Rice 5kg,Grocery,16,1200,17280,900,2880,10,Bank Transfer,Business,Online
+2731,2025-02-25,Quetta,Balochistan,Online,Laptop Stand,Electronics,9,3000,24300,2200,4500,10,Cash,Business,Offline
+2732,2025-01-13,Quetta,Balochistan,Online,Cooking Oil 5L,Grocery,6,2500,12750,1900,1350,15,Bank Transfer,Regular,Offline
+2733,2025-03-16,Faisalabad,Punjab,Retail,Headphones,Electronics,13,2500,29250,1800,5850,10,Bank Transfer,Regular,Offline
+2734,2025-01-02,Karachi,Sindh,Wholesale,Sugar 5kg,Grocery,2,900,1620,650,320,10,Card,Regular,Offline
+2735,2025-03-18,Faisalabad,Punjab,Wholesale,Soap Pack,Personal Care,13,150,1755,90,585,10,Bank Transfer,Regular,Online
+2736,2025-02-12,Karachi,Sindh,Online,Sugar 5kg,Grocery,12,900,10260,650,2460,5,Bank Transfer,Regular,Online
+2737,2025-01-03,Karachi,Sindh,Wholesale,Headphones,Electronics,11,2500,26125,1800,6325,5,Bank Transfer,Business,Online
+2738,2025-02-18,Islamabad,Capital,Online,Laptop Stand,Electronics,7,3000,18900,2200,3500,10,Bank Transfer,Regular,Offline
+2739,2025-01-01,Quetta,Balochistan,Wholesale,Shampoo,Personal Care,11,450,4455,300,1155,10,Bank Transfer,Regular,Offline
+2740,2025-03-16,Lahore,Punjab,Wholesale,Mobile Charger,Electronics,7,800,4760,500,1260,15,Card,Business,Offline
+2741,2025-02-16,Karachi,Sindh,Online,Headphones,Electronics,14,2500,31500,1800,6300,10,Cash,Business,Online
+2742,2025-01-10,Faisalabad,Punjab,Wholesale,Cooking Oil 5L,Grocery,4,2500,9000,1900,1400,10,Cash,Regular,Online
+2743,2025-01-02,Quetta,Balochistan,Wholesale,Soap Pack,Personal Care,18,150,2430,90,810,10,Card,Regular,Offline
+2744,2025-03-26,Quetta,Balochistan,Wholesale,Flour 10kg,Grocery,7,1100,7315,800,1715,5,Cash,Regular,Online
+2745,2025-01-06,Quetta,Balochistan,Retail,Cooking Oil 5L,Grocery,10,2500,21250,1900,2250,15,Bank Transfer,Regular,Online
+2746,2025-01-05,Lahore,Punjab,Retail,Rice 5kg,Grocery,20,1200,20400,900,2400,15,Card,Regular,Offline
+2747,2025-01-15,Karachi,Sindh,Online,Mobile Charger,Electronics,3,800,2400,500,900,0,Cash,Regular,Offline
+2748,2025-04-01,Karachi,Sindh,Wholesale,Headphones,Electronics,15,2500,37500,1800,10500,0,Bank Transfer,Business,Offline
+2749,2025-01-26,Faisalabad,Punjab,Wholesale,Mobile Charger,Electronics,16,800,11520,500,3520,10,Card,Regular,Offline
+2750,2025-03-20,Lahore,Punjab,Online,Flour 10kg,Grocery,17,1100,16830,800,3230,10,Cash,Business,Offline
+2751,2025-01-10,Lahore,Punjab,Online,Mobile Charger,Electronics,5,800,4000,500,1500,0,Cash,Regular,Online
+2752,2025-03-15,Islamabad,Capital,Online,Rice 5kg,Grocery,16,1200,16320,900,1920,15,Bank Transfer,Business,Offline
+2753,2025-03-03,Quetta,Balochistan,Online,Laptop Stand,Electronics,2,3000,5100,2200,700,15,Bank Transfer,Regular,Offline
+2754,2025-01-18,Islamabad,Capital,Retail,Rice 5kg,Grocery,11,1200,12540,900,2640,5,Bank Transfer,Business,Online
+2755,2025-03-25,Karachi,Sindh,Wholesale,Headphones,Electronics,13,2500,32500,1800,9100,0,Bank Transfer,Regular,Online
+2756,2025-03-29,Lahore,Punjab,Wholesale,Headphones,Electronics,20,2500,47500,1800,11500,5,Cash,Business,Offline
+2757,2025-01-07,Faisalabad,Punjab,Wholesale,Laptop Stand,Electronics,8,3000,21600,2200,4000,10,Bank Transfer,Business,Online
+2758,2025-03-14,Karachi,Sindh,Online,Cooking Oil 5L,Grocery,1,2500,2375,1900,475,5,Bank Transfer,Business,Offline
+2759,2025-02-08,Quetta,Balochistan,Wholesale,Laptop Stand,Electronics,1,3000,2700,2200,500,10,Card,Regular,Offline
+2760,2025-01-21,Faisalabad,Punjab,Online,Headphones,Electronics,11,2500,27500,1800,7700,0,Bank Transfer,Regular,Offline
+2761,2025-02-15,Islamabad,Capital,Retail,Soap Pack,Personal Care,9,150,1147,90,337,15,Bank Transfer,Business,Offline
+2762,2025-01-02,Lahore,Punjab,Retail,Rice 5kg,Grocery,19,1200,21660,900,4560,5,Bank Transfer,Regular,Online
+2763,2025-02-01,Faisalabad,Punjab,Online,Soap Pack,Personal Care,4,150,600,90,240,0,Bank Transfer,Regular,Offline
+2764,2025-01-01,Islamabad,Capital,Online,Shampoo,Personal Care,1,450,427,300,127,5,Cash,Regular,Offline
+2765,2025-02-07,Karachi,Sindh,Retail,Mobile Charger,Electronics,4,800,2720,500,720,15,Cash,Regular,Online
+2766,2025-03-07,Faisalabad,Punjab,Wholesale,Flour 10kg,Grocery,14,1100,13860,800,2660,10,Bank Transfer,Business,Online
+2767,2025-02-04,Karachi,Sindh,Wholesale,Cooking Oil 5L,Grocery,14,2500,29750,1900,3150,15,Cash,Regular,Offline
+2768,2025-02-28,Karachi,Sindh,Retail,Flour 10kg,Grocery,7,1100,6545,800,945,15,Bank Transfer,Business,Online
+2769,2025-02-14,Lahore,Punjab,Wholesale,Mobile Charger,Electronics,4,800,2880,500,880,10,Bank Transfer,Business,Online
+2770,2025-01-26,Peshawar,KPK,Wholesale,Headphones,Electronics,8,2500,17000,1800,2600,15,Bank Transfer,Business,Online
+2771,2025-03-05,Faisalabad,Punjab,Retail,Cooking Oil 5L,Grocery,18,2500,45000,1900,10800,0,Cash,Regular,Offline
+2772,2025-01-17,Quetta,Balochistan,Online,Flour 10kg,Grocery,5,1100,5225,800,1225,5,Card,Regular,Offline
+2773,2025-01-03,Faisalabad,Punjab,Online,Shampoo,Personal Care,16,450,6480,300,1680,10,Bank Transfer,Business,Online
+2774,2025-01-17,Peshawar,KPK,Wholesale,Sugar 5kg,Grocery,14,900,11970,650,2870,5,Cash,Regular,Online
+2775,2025-01-10,Quetta,Balochistan,Online,Flour 10kg,Grocery,2,1100,2090,800,490,5,Card,Regular,Offline
+2776,2025-02-05,Peshawar,KPK,Wholesale,Cooking Oil 5L,Grocery,6,2500,12750,1900,1350,15,Cash,Regular,Offline
+2777,2025-01-24,Quetta,Balochistan,Retail,Rice 5kg,Grocery,8,1200,9120,900,1920,5,Bank Transfer,Business,Offline
+2778,2025-01-13,Karachi,Sindh,Wholesale,Cooking Oil 5L,Grocery,2,2500,4500,1900,700,10,Card,Regular,Online
+2779,2025-03-28,Islamabad,Capital,Wholesale,Sugar 5kg,Grocery,12,900,10800,650,3000,0,Bank Transfer,Regular,Offline
+2780,2025-03-22,Faisalabad,Punjab,Retail,Shampoo,Personal Care,7,450,2992,300,892,5,Cash,Regular,Offline
+2781,2025-02-24,Peshawar,KPK,Wholesale,Shampoo,Personal Care,20,450,8100,300,2100,10,Card,Regular,Offline
+2782,2025-03-30,Lahore,Punjab,Online,Cooking Oil 5L,Grocery,2,2500,5000,1900,1200,0,Bank Transfer,Regular,Online
+2783,2025-03-28,Faisalabad,Punjab,Retail,Mobile Charger,Electronics,1,800,720,500,220,10,Bank Transfer,Business,Offline
+2784,2025-03-10,Lahore,Punjab,Retail,Rice 5kg,Grocery,2,1200,2040,900,240,15,Bank Transfer,Business,Offline
+2785,2025-01-29,Karachi,Sindh,Retail,Cooking Oil 5L,Grocery,11,2500,27500,1900,6600,0,Bank Transfer,Business,Online
+2786,2025-01-03,Faisalabad,Punjab,Wholesale,Shampoo,Personal Care,9,450,3645,300,945,10,Card,Business,Online
+2787,2025-01-15,Islamabad,Capital,Wholesale,Headphones,Electronics,11,2500,27500,1800,7700,0,Card,Regular,Online
+2788,2025-01-27,Faisalabad,Punjab,Retail,Sugar 5kg,Grocery,11,900,8415,650,1265,15,Card,Business,Offline
+2789,2025-03-05,Faisalabad,Punjab,Online,Laptop Stand,Electronics,18,3000,45900,2200,6300,15,Bank Transfer,Regular,Online
+2790,2025-01-21,Islamabad,Capital,Online,Cooking Oil 5L,Grocery,10,2500,21250,1900,2250,15,Cash,Business,Online
+2791,2025-01-16,Islamabad,Capital,Wholesale,Rice 5kg,Grocery,14,1200,14280,900,1680,15,Bank Transfer,Regular,Online
+2792,2025-01-24,Faisalabad,Punjab,Online,Sugar 5kg,Grocery,17,900,13005,650,1955,15,Cash,Business,Online
+2793,2025-02-03,Lahore,Punjab,Online,Sugar 5kg,Grocery,17,900,13770,650,2720,10,Cash,Regular,Offline
+2794,2025-02-13,Faisalabad,Punjab,Wholesale,Rice 5kg,Grocery,1,1200,1200,900,300,0,Cash,Regular,Online
+2795,2025-02-23,Quetta,Balochistan,Retail,Rice 5kg,Grocery,2,1200,2160,900,360,10,Bank Transfer,Regular,Online
+2796,2025-01-09,Quetta,Balochistan,Online,Shampoo,Personal Care,9,450,3847,300,1147,5,Card,Regular,Offline
+2797,2025-03-20,Peshawar,KPK,Retail,Mobile Charger,Electronics,11,800,7920,500,2420,10,Cash,Regular,Offline
+2798,2025-01-14,Quetta,Balochistan,Online,Sugar 5kg,Grocery,13,900,11700,650,3250,0,Bank Transfer,Business,Online
+2799,2025-02-03,Peshawar,KPK,Online,Mobile Charger,Electronics,15,800,10200,500,2700,15,Cash,Regular,Online
+2800,2025-02-26,Islamabad,Capital,Retail,Laptop Stand,Electronics,17,3000,43350,2200,5950,15,Bank Transfer,Regular,Offline
+2801,2025-04-01,Peshawar,KPK,Wholesale,Headphones,Electronics,16,2500,40000,1800,11200,0,Bank Transfer,Business,Online
+2802,2025-01-13,Quetta,Balochistan,Online,Headphones,Electronics,4,2500,9500,1800,2300,5,Card,Business,Offline
+2803,2025-03-08,Islamabad,Capital,Online,Laptop Stand,Electronics,6,3000,16200,2200,3000,10,Card,Business,Offline
+2804,2025-03-28,Karachi,Sindh,Retail,Rice 5kg,Grocery,2,1200,2400,900,600,0,Card,Regular,Online
+2805,2025-03-18,Peshawar,KPK,Retail,Rice 5kg,Grocery,17,1200,20400,900,5100,0,Cash,Regular,Offline
+2806,2025-03-02,Islamabad,Capital,Retail,Sugar 5kg,Grocery,1,900,900,650,250,0,Cash,Business,Online
+2807,2025-01-07,Faisalabad,Punjab,Retail,Sugar 5kg,Grocery,20,900,15300,650,2300,15,Card,Business,Offline
+2808,2025-02-04,Faisalabad,Punjab,Wholesale,Laptop Stand,Electronics,2,3000,5400,2200,1000,10,Card,Business,Offline
+2809,2025-02-19,Karachi,Sindh,Wholesale,Flour 10kg,Grocery,2,1100,1980,800,380,10,Bank Transfer,Business,Offline
+2810,2025-03-03,Karachi,Sindh,Online,Rice 5kg,Grocery,2,1200,2280,900,480,5,Card,Business,Offline
+2811,2025-01-17,Lahore,Punjab,Wholesale,Soap Pack,Personal Care,8,150,1200,90,480,0,Bank Transfer,Regular,Offline
+2812,2025-01-24,Quetta,Balochistan,Retail,Sugar 5kg,Grocery,2,900,1530,650,230,15,Cash,Regular,Offline
+2813,2025-03-20,Karachi,Sindh,Online,Sugar 5kg,Grocery,10,900,9000,650,2500,0,Card,Business,Offline
+2814,2025-03-16,Quetta,Balochistan,Wholesale,Flour 10kg,Grocery,13,1100,12870,800,2470,10,Card,Business,Online
+2815,2025-02-25,Karachi,Sindh,Retail,Mobile Charger,Electronics,8,800,5440,500,1440,15,Card,Business,Offline
+2816,2025-01-19,Peshawar,KPK,Retail,Mobile Charger,Electronics,3,800,2400,500,900,0,Cash,Business,Online
+2817,2025-02-26,Peshawar,KPK,Retail,Headphones,Electronics,18,2500,40500,1800,8100,10,Cash,Regular,Online
+2818,2025-03-09,Lahore,Punjab,Retail,Rice 5kg,Grocery,3,1200,3420,900,720,5,Cash,Regular,Online
+2819,2025-02-07,Lahore,Punjab,Online,Shampoo,Personal Care,4,450,1710,300,510,5,Cash,Business,Offline
+2820,2025-01-27,Karachi,Sindh,Retail,Shampoo,Personal Care,19,450,7267,300,1567,15,Cash,Regular,Offline
+2821,2025-02-14,Quetta,Balochistan,Retail,Headphones,Electronics,11,2500,26125,1800,6325,5,Cash,Business,Offline
+2822,2025-03-06,Quetta,Balochistan,Wholesale,Shampoo,Personal Care,18,450,6885,300,1485,15,Card,Business,Online
+2823,2025-01-15,Peshawar,KPK,Wholesale,Shampoo,Personal Care,2,450,765,300,165,15,Cash,Business,Online
+2824,2025-01-29,Islamabad,Capital,Retail,Laptop Stand,Electronics,3,3000,9000,2200,2400,0,Cash,Business,Offline
+2825,2025-01-09,Quetta,Balochistan,Online,Mobile Charger,Electronics,5,800,4000,500,1500,0,Cash,Business,Offline
+2826,2025-01-24,Quetta,Balochistan,Online,Laptop Stand,Electronics,5,3000,13500,2200,2500,10,Bank Transfer,Business,Online
+2827,2025-03-06,Peshawar,KPK,Retail,Sugar 5kg,Grocery,8,900,6120,650,920,15,Bank Transfer,Regular,Online
+2828,2025-03-02,Faisalabad,Punjab,Wholesale,Rice 5kg,Grocery,13,1200,15600,900,3900,0,Card,Regular,Online
+2829,2025-03-31,Quetta,Balochistan,Wholesale,Sugar 5kg,Grocery,7,900,6300,650,1750,0,Cash,Regular,Offline
+2830,2025-01-01,Quetta,Balochistan,Retail,Mobile Charger,Electronics,11,800,8360,500,2860,5,Bank Transfer,Regular,Offline
+2831,2025-02-05,Islamabad,Capital,Online,Flour 10kg,Grocery,4,1100,3740,800,540,15,Bank Transfer,Regular,Offline
+2832,2025-02-05,Faisalabad,Punjab,Wholesale,Rice 5kg,Grocery,3,1200,3600,900,900,0,Cash,Business,Offline
+2833,2025-03-21,Lahore,Punjab,Retail,Cooking Oil 5L,Grocery,3,2500,6750,1900,1050,10,Bank Transfer,Business,Offline
+2834,2025-02-12,Faisalabad,Punjab,Retail,Soap Pack,Personal Care,11,150,1650,90,660,0,Cash,Regular,Offline
+2835,2025-01-09,Quetta,Balochistan,Retail,Sugar 5kg,Grocery,8,900,6120,650,920,15,Bank Transfer,Regular,Online
+2836,2025-02-28,Islamabad,Capital,Wholesale,Shampoo,Personal Care,16,450,6840,300,2040,5,Card,Regular,Online
+2837,2025-02-21,Lahore,Punjab,Wholesale,Rice 5kg,Grocery,9,1200,9180,900,1080,15,Bank Transfer,Regular,Online
+2838,2025-02-23,Faisalabad,Punjab,Wholesale,Laptop Stand,Electronics,19,3000,57000,2200,15200,0,Card,Regular,Offline
+2839,2025-01-21,Faisalabad,Punjab,Retail,Shampoo,Personal Care,13,450,5265,300,1365,10,Cash,Business,Online
+2840,2025-02-16,Quetta,Balochistan,Online,Sugar 5kg,Grocery,7,900,5670,650,1120,10,Bank Transfer,Regular,Offline
+2841,2025-01-29,Karachi,Sindh,Wholesale,Rice 5kg,Grocery,15,1200,16200,900,2700,10,Cash,Regular,Online
+2842,2025-03-04,Peshawar,KPK,Wholesale,Flour 10kg,Grocery,4,1100,4400,800,1200,0,Cash,Business,Offline
+2843,2025-02-12,Islamabad,Capital,Online,Headphones,Electronics,12,2500,28500,1800,6900,5,Bank Transfer,Business,Online
+2844,2025-01-01,Karachi,Sindh,Retail,Sugar 5kg,Grocery,11,900,9900,650,2750,0,Card,Regular,Online
+2845,2025-03-15,Faisalabad,Punjab,Retail,Cooking Oil 5L,Grocery,9,2500,20250,1900,3150,10,Card,Business,Offline
+2846,2025-01-21,Faisalabad,Punjab,Online,Headphones,Electronics,15,2500,31875,1800,4875,15,Card,Regular,Offline
+2847,2025-01-04,Faisalabad,Punjab,Online,Sugar 5kg,Grocery,19,900,15390,650,3040,10,Bank Transfer,Business,Offline
+2848,2025-01-10,Karachi,Sindh,Wholesale,Headphones,Electronics,19,2500,45125,1800,10925,5,Bank Transfer,Regular,Offline
+2849,2025-01-08,Peshawar,KPK,Online,Laptop Stand,Electronics,2,3000,5400,2200,1000,10,Card,Regular,Offline
+2850,2025-03-16,Karachi,Sindh,Retail,Mobile Charger,Electronics,14,800,9520,500,2520,15,Card,Regular,Offline
+2851,2025-03-22,Islamabad,Capital,Online,Rice 5kg,Grocery,15,1200,17100,900,3600,5,Cash,Regular,Online
+2852,2025-03-22,Lahore,Punjab,Online,Sugar 5kg,Grocery,6,900,5400,650,1500,0,Bank Transfer,Business,Online
+2853,2025-01-15,Lahore,Punjab,Online,Sugar 5kg,Grocery,6,900,4590,650,690,15,Cash,Regular,Offline
+2854,2025-01-30,Karachi,Sindh,Retail,Headphones,Electronics,12,2500,28500,1800,6900,5,Card,Regular,Offline
+2855,2025-02-26,Lahore,Punjab,Retail,Mobile Charger,Electronics,11,800,7920,500,2420,10,Cash,Regular,Online
+2856,2025-02-09,Lahore,Punjab,Retail,Mobile Charger,Electronics,2,800,1440,500,440,10,Cash,Business,Online
+2857,2025-03-22,Karachi,Sindh,Online,Headphones,Electronics,15,2500,31875,1800,4875,15,Bank Transfer,Regular,Online
+2858,2025-01-09,Faisalabad,Punjab,Wholesale,Sugar 5kg,Grocery,2,900,1800,650,500,0,Card,Business,Offline
+2859,2025-02-20,Karachi,Sindh,Wholesale,Sugar 5kg,Grocery,9,900,7290,650,1440,10,Card,Business,Offline
+2860,2025-03-23,Peshawar,KPK,Retail,Soap Pack,Personal Care,3,150,450,90,180,0,Card,Regular,Offline
+2861,2025-03-11,Faisalabad,Punjab,Retail,Mobile Charger,Electronics,8,800,6080,500,2080,5,Card,Business,Online
+2862,2025-01-21,Peshawar,KPK,Online,Shampoo,Personal Care,2,450,810,300,210,10,Card,Business,Offline
+2863,2025-01-03,Faisalabad,Punjab,Wholesale,Mobile Charger,Electronics,2,800,1440,500,440,10,Card,Business,Online
+2864,2025-03-03,Quetta,Balochistan,Online,Mobile Charger,Electronics,20,800,13600,500,3600,15,Card,Regular,Offline
+2865,2025-03-07,Peshawar,KPK,Retail,Flour 10kg,Grocery,14,1100,14630,800,3430,5,Card,Business,Online
+2866,2025-02-23,Lahore,Punjab,Wholesale,Cooking Oil 5L,Grocery,16,2500,40000,1900,9600,0,Cash,Regular,Offline
+2867,2025-03-02,Karachi,Sindh,Wholesale,Cooking Oil 5L,Grocery,1,2500,2125,1900,225,15,Cash,Business,Online
+2868,2025-03-08,Lahore,Punjab,Wholesale,Rice 5kg,Grocery,20,1200,24000,900,6000,0,Bank Transfer,Regular,Online
+2869,2025-03-07,Quetta,Balochistan,Online,Soap Pack,Personal Care,12,150,1530,90,450,15,Cash,Business,Online
+2870,2025-01-06,Faisalabad,Punjab,Wholesale,Rice 5kg,Grocery,17,1200,17340,900,2040,15,Card,Regular,Online
+2871,2025-03-04,Faisalabad,Punjab,Retail,Mobile Charger,Electronics,6,800,4320,500,1320,10,Cash,Business,Offline
+2872,2025-03-13,Quetta,Balochistan,Retail,Mobile Charger,Electronics,3,800,2160,500,660,10,Cash,Business,Offline
+2873,2025-03-07,Faisalabad,Punjab,Retail,Rice 5kg,Grocery,4,1200,4800,900,1200,0,Bank Transfer,Business,Offline
+2874,2025-03-18,Faisalabad,Punjab,Retail,Flour 10kg,Grocery,8,1100,8360,800,1960,5,Card,Regular,Offline
+2875,2025-03-10,Lahore,Punjab,Online,Mobile Charger,Electronics,6,800,4560,500,1560,5,Card,Business,Online
+2876,2025-01-13,Islamabad,Capital,Retail,Shampoo,Personal Care,15,450,5737,300,1237,15,Bank Transfer,Business,Offline
+2877,2025-03-13,Islamabad,Capital,Online,Cooking Oil 5L,Grocery,19,2500,40375,1900,4275,15,Card,Regular,Offline
+2878,2025-02-12,Quetta,Balochistan,Retail,Cooking Oil 5L,Grocery,18,2500,45000,1900,10800,0,Cash,Business,Online
+2879,2025-02-07,Islamabad,Capital,Online,Sugar 5kg,Grocery,9,900,7695,650,1845,5,Bank Transfer,Regular,Online
+2880,2025-02-22,Karachi,Sindh,Retail,Laptop Stand,Electronics,14,3000,37800,2200,7000,10,Cash,Business,Online
+2881,2025-02-18,Lahore,Punjab,Retail,Soap Pack,Personal Care,1,150,127,90,37,15,Cash,Regular,Offline
+2882,2025-01-12,Lahore,Punjab,Wholesale,Shampoo,Personal Care,6,450,2700,300,900,0,Card,Regular,Online
+2883,2025-03-18,Islamabad,Capital,Retail,Laptop Stand,Electronics,19,3000,48450,2200,6650,15,Cash,Business,Offline
+2884,2025-01-05,Lahore,Punjab,Wholesale,Laptop Stand,Electronics,11,3000,31350,2200,7150,5,Cash,Regular,Online
+2885,2025-01-03,Lahore,Punjab,Retail,Headphones,Electronics,6,2500,14250,1800,3450,5,Cash,Business,Online
+2886,2025-01-16,Quetta,Balochistan,Online,Mobile Charger,Electronics,19,800,15200,500,5700,0,Cash,Regular,Offline
+2887,2025-02-10,Faisalabad,Punjab,Wholesale,Rice 5kg,Grocery,13,1200,14820,900,3120,5,Card,Business,Offline
+2888,2025-02-14,Peshawar,KPK,Online,Cooking Oil 5L,Grocery,6,2500,14250,1900,2850,5,Bank Transfer,Business,Offline
+2889,2025-02-10,Peshawar,KPK,Retail,Mobile Charger,Electronics,18,800,13680,500,4680,5,Bank Transfer,Regular,Offline
+2890,2025-03-24,Peshawar,KPK,Online,Cooking Oil 5L,Grocery,11,2500,23375,1900,2475,15,Card,Business,Offline
+2891,2025-02-08,Karachi,Sindh,Retail,Sugar 5kg,Grocery,14,900,10710,650,1610,15,Cash,Business,Online
+2892,2025-03-08,Faisalabad,Punjab,Online,Sugar 5kg,Grocery,12,900,9720,650,1920,10,Cash,Regular,Offline
+2893,2025-02-22,Faisalabad,Punjab,Online,Headphones,Electronics,2,2500,4500,1800,900,10,Cash,Regular,Online
+2894,2025-02-23,Peshawar,KPK,Wholesale,Mobile Charger,Electronics,9,800,6120,500,1620,15,Bank Transfer,Regular,Online
+2895,2025-03-01,Quetta,Balochistan,Wholesale,Soap Pack,Personal Care,6,150,810,90,270,10,Cash,Business,Offline
+2896,2025-02-09,Faisalabad,Punjab,Retail,Headphones,Electronics,5,2500,12500,1800,3500,0,Cash,Regular,Online
+2897,2025-03-01,Quetta,Balochistan,Online,Cooking Oil 5L,Grocery,16,2500,38000,1900,7600,5,Bank Transfer,Business,Offline
+2898,2025-02-18,Peshawar,KPK,Online,Flour 10kg,Grocery,6,1100,5610,800,810,15,Bank Transfer,Regular,Online
+2899,2025-01-14,Peshawar,KPK,Wholesale,Flour 10kg,Grocery,7,1100,7315,800,1715,5,Bank Transfer,Regular,Offline
+2900,2025-01-11,Peshawar,KPK,Online,Sugar 5kg,Grocery,15,900,12825,650,3075,5,Card,Regular,Online
+2901,2025-01-15,Quetta,Balochistan,Online,Soap Pack,Personal Care,1,150,142,90,52,5,Bank Transfer,Business,Offline
+2902,2025-04-01,Faisalabad,Punjab,Online,Mobile Charger,Electronics,15,800,11400,500,3900,5,Card,Business,Online
+2903,2025-01-08,Islamabad,Capital,Wholesale,Shampoo,Personal Care,20,450,9000,300,3000,0,Bank Transfer,Regular,Offline
+2904,2025-02-23,Lahore,Punjab,Online,Soap Pack,Personal Care,11,150,1567,90,577,5,Card,Business,Offline
+2905,2025-01-09,Lahore,Punjab,Online,Headphones,Electronics,6,2500,13500,1800,2700,10,Bank Transfer,Business,Offline
+2906,2025-02-08,Faisalabad,Punjab,Wholesale,Headphones,Electronics,16,2500,40000,1800,11200,0,Bank Transfer,Business,Offline
+2907,2025-04-01,Lahore,Punjab,Wholesale,Flour 10kg,Grocery,15,1100,14025,800,2025,15,Card,Regular,Online
+2908,2025-02-02,Lahore,Punjab,Online,Rice 5kg,Grocery,1,1200,1080,900,180,10,Card,Regular,Online
+2909,2025-02-07,Lahore,Punjab,Online,Soap Pack,Personal Care,14,150,1995,90,735,5,Cash,Business,Online
+2910,2025-03-01,Faisalabad,Punjab,Retail,Headphones,Electronics,3,2500,7125,1800,1725,5,Cash,Business,Offline
+2911,2025-01-28,Faisalabad,Punjab,Wholesale,Cooking Oil 5L,Grocery,20,2500,50000,1900,12000,0,Cash,Regular,Online
+2912,2025-01-24,Faisalabad,Punjab,Retail,Shampoo,Personal Care,15,450,5737,300,1237,15,Bank Transfer,Business,Online
+2913,2025-02-26,Quetta,Balochistan,Wholesale,Soap Pack,Personal Care,8,150,1200,90,480,0,Cash,Regular,Online
+2914,2025-02-26,Islamabad,Capital,Online,Flour 10kg,Grocery,3,1100,3300,800,900,0,Bank Transfer,Regular,Offline
+2915,2025-03-08,Quetta,Balochistan,Retail,Soap Pack,Personal Care,11,150,1485,90,495,10,Cash,Business,Offline
+2916,2025-03-06,Lahore,Punjab,Retail,Cooking Oil 5L,Grocery,9,2500,20250,1900,3150,10,Bank Transfer,Business,Online
+2917,2025-02-08,Peshawar,KPK,Retail,Cooking Oil 5L,Grocery,18,2500,40500,1900,6300,10,Cash,Business,Online
+2918,2025-01-10,Karachi,Sindh,Wholesale,Headphones,Electronics,5,2500,11875,1800,2875,5,Bank Transfer,Business,Offline
+2919,2025-01-23,Karachi,Sindh,Wholesale,Shampoo,Personal Care,16,450,6840,300,2040,5,Card,Business,Offline
+2920,2025-02-08,Quetta,Balochistan,Online,Shampoo,Personal Care,14,450,5670,300,1470,10,Card,Regular,Online
+2921,2025-01-15,Islamabad,Capital,Retail,Headphones,Electronics,11,2500,27500,1800,7700,0,Bank Transfer,Business,Offline
+2922,2025-02-17,Lahore,Punjab,Online,Shampoo,Personal Care,12,450,4590,300,990,15,Card,Regular,Online
+2923,2025-02-06,Faisalabad,Punjab,Online,Laptop Stand,Electronics,9,3000,25650,2200,5850,5,Bank Transfer,Regular,Online
+2924,2025-01-06,Faisalabad,Punjab,Online,Mobile Charger,Electronics,15,800,10800,500,3300,10,Cash,Regular,Online
+2925,2025-02-02,Islamabad,Capital,Online,Laptop Stand,Electronics,20,3000,60000,2200,16000,0,Bank Transfer,Business,Online
+2926,2025-03-15,Faisalabad,Punjab,Wholesale,Cooking Oil 5L,Grocery,2,2500,5000,1900,1200,0,Cash,Business,Online
+2927,2025-01-11,Lahore,Punjab,Online,Soap Pack,Personal Care,15,150,2025,90,675,10,Card,Business,Online
+2928,2025-02-19,Lahore,Punjab,Wholesale,Soap Pack,Personal Care,9,150,1147,90,337,15,Bank Transfer,Business,Online
+2929,2025-03-07,Karachi,Sindh,Online,Mobile Charger,Electronics,5,800,3400,500,900,15,Bank Transfer,Business,Online
+2930,2025-02-24,Islamabad,Capital,Online,Soap Pack,Personal Care,9,150,1350,90,540,0,Bank Transfer,Regular,Online
+2931,2025-02-01,Islamabad,Capital,Wholesale,Soap Pack,Personal Care,4,150,510,90,150,15,Cash,Regular,Online
+2932,2025-01-18,Lahore,Punjab,Online,Shampoo,Personal Care,15,450,6075,300,1575,10,Bank Transfer,Business,Online
+2933,2025-01-28,Quetta,Balochistan,Wholesale,Mobile Charger,Electronics,11,800,8800,500,3300,0,Bank Transfer,Regular,Offline
+2934,2025-03-23,Faisalabad,Punjab,Retail,Cooking Oil 5L,Grocery,18,2500,38250,1900,4050,15,Card,Regular,Online
+2935,2025-03-25,Islamabad,Capital,Retail,Rice 5kg,Grocery,2,1200,2280,900,480,5,Card,Regular,Online
+2936,2025-01-30,Faisalabad,Punjab,Wholesale,Rice 5kg,Grocery,7,1200,8400,900,2100,0,Bank Transfer,Business,Online
+2937,2025-03-06,Lahore,Punjab,Retail,Mobile Charger,Electronics,8,800,5760,500,1760,10,Cash,Regular,Offline
+2938,2025-02-20,Peshawar,KPK,Wholesale,Shampoo,Personal Care,7,450,3150,300,1050,0,Card,Regular,Online
+2939,2025-01-15,Lahore,Punjab,Retail,Cooking Oil 5L,Grocery,1,2500,2500,1900,600,0,Cash,Business,Offline
+2940,2025-01-13,Faisalabad,Punjab,Retail,Headphones,Electronics,18,2500,40500,1800,8100,10,Card,Business,Offline
+2941,2025-01-22,Faisalabad,Punjab,Wholesale,Headphones,Electronics,19,2500,40375,1800,6175,15,Card,Regular,Online
+2942,2025-01-21,Islamabad,Capital,Online,Mobile Charger,Electronics,13,800,10400,500,3900,0,Cash,Regular,Offline
+2943,2025-01-14,Peshawar,KPK,Wholesale,Mobile Charger,Electronics,18,800,14400,500,5400,0,Cash,Regular,Offline
+2944,2025-01-31,Faisalabad,Punjab,Retail,Cooking Oil 5L,Grocery,19,2500,42750,1900,6650,10,Cash,Regular,Offline
+2945,2025-02-20,Quetta,Balochistan,Online,Sugar 5kg,Grocery,10,900,8100,650,1600,10,Card,Regular,Online
+2946,2025-01-04,Faisalabad,Punjab,Wholesale,Laptop Stand,Electronics,2,3000,5400,2200,1000,10,Cash,Business,Online
+2947,2025-01-24,Lahore,Punjab,Online,Soap Pack,Personal Care,20,150,2700,90,900,10,Card,Regular,Offline
+2948,2025-02-05,Faisalabad,Punjab,Retail,Rice 5kg,Grocery,10,1200,10800,900,1800,10,Bank Transfer,Regular,Offline
+2949,2025-03-27,Karachi,Sindh,Wholesale,Shampoo,Personal Care,8,450,3420,300,1020,5,Card,Business,Online
+2950,2025-03-06,Quetta,Balochistan,Retail,Mobile Charger,Electronics,3,800,2280,500,780,5,Cash,Business,Offline
+2951,2025-01-07,Peshawar,KPK,Online,Sugar 5kg,Grocery,10,900,7650,650,1150,15,Card,Business,Offline
+2952,2025-02-04,Karachi,Sindh,Retail,Sugar 5kg,Grocery,1,900,900,650,250,0,Card,Regular,Online
+2953,2025-03-29,Peshawar,KPK,Wholesale,Flour 10kg,Grocery,1,1100,935,800,135,15,Bank Transfer,Regular,Online
+2954,2025-03-28,Islamabad,Capital,Online,Shampoo,Personal Care,17,450,7267,300,2167,5,Card,Business,Offline
+2955,2025-03-04,Quetta,Balochistan,Retail,Laptop Stand,Electronics,2,3000,5100,2200,700,15,Cash,Business,Offline
+2956,2025-03-25,Faisalabad,Punjab,Wholesale,Laptop Stand,Electronics,12,3000,30600,2200,4200,15,Card,Regular,Offline
+2957,2025-03-18,Faisalabad,Punjab,Retail,Shampoo,Personal Care,6,450,2430,300,630,10,Bank Transfer,Regular,Online
+2958,2025-01-19,Quetta,Balochistan,Retail,Shampoo,Personal Care,7,450,2992,300,892,5,Cash,Regular,Offline
+2959,2025-01-15,Islamabad,Capital,Retail,Cooking Oil 5L,Grocery,16,2500,34000,1900,3600,15,Bank Transfer,Business,Online
+2960,2025-02-03,Faisalabad,Punjab,Retail,Headphones,Electronics,17,2500,42500,1800,11900,0,Card,Regular,Online
+2961,2025-03-27,Lahore,Punjab,Online,Sugar 5kg,Grocery,15,900,12825,650,3075,5,Cash,Regular,Offline
+2962,2025-03-02,Quetta,Balochistan,Wholesale,Rice 5kg,Grocery,15,1200,15300,900,1800,15,Bank Transfer,Business,Offline
+2963,2025-03-12,Islamabad,Capital,Retail,Rice 5kg,Grocery,3,1200,3240,900,540,10,Cash,Regular,Offline
+2964,2025-04-01,Lahore,Punjab,Retail,Rice 5kg,Grocery,4,1200,4560,900,960,5,Bank Transfer,Regular,Offline
+2965,2025-03-03,Karachi,Sindh,Online,Mobile Charger,Electronics,16,800,11520,500,3520,10,Cash,Regular,Offline
+2966,2025-03-31,Quetta,Balochistan,Wholesale,Flour 10kg,Grocery,15,1100,14850,800,2850,10,Bank Transfer,Business,Offline
+2967,2025-01-29,Karachi,Sindh,Online,Flour 10kg,Grocery,4,1100,3740,800,540,15,Cash,Business,Offline
+2968,2025-03-10,Peshawar,KPK,Wholesale,Flour 10kg,Grocery,18,1100,19800,800,5400,0,Card,Regular,Online
+2969,2025-03-03,Karachi,Sindh,Wholesale,Shampoo,Personal Care,11,450,4950,300,1650,0,Bank Transfer,Regular,Online
+2970,2025-03-28,Faisalabad,Punjab,Online,Laptop Stand,Electronics,12,3000,36000,2200,9600,0,Cash,Business,Offline
+2971,2025-03-13,Quetta,Balochistan,Online,Mobile Charger,Electronics,2,800,1520,500,520,5,Cash,Business,Online
+2972,2025-01-21,Peshawar,KPK,Wholesale,Soap Pack,Personal Care,13,150,1755,90,585,10,Card,Regular,Online
+2973,2025-03-17,Islamabad,Capital,Retail,Mobile Charger,Electronics,10,800,7600,500,2600,5,Bank Transfer,Regular,Online
+2974,2025-01-24,Faisalabad,Punjab,Retail,Flour 10kg,Grocery,16,1100,15840,800,3040,10,Bank Transfer,Business,Offline
+2975,2025-02-11,Lahore,Punjab,Retail,Headphones,Electronics,6,2500,13500,1800,2700,10,Card,Business,Online
+2976,2025-03-06,Karachi,Sindh,Retail,Shampoo,Personal Care,10,450,4500,300,1500,0,Cash,Regular,Offline
+2977,2025-02-08,Quetta,Balochistan,Retail,Shampoo,Personal Care,5,450,1912,300,412,15,Cash,Regular,Online
+2978,2025-01-01,Peshawar,KPK,Wholesale,Flour 10kg,Grocery,3,1100,3135,800,735,5,Cash,Regular,Online
+2979,2025-03-24,Lahore,Punjab,Retail,Headphones,Electronics,4,2500,9500,1800,2300,5,Card,Business,Online
+2980,2025-02-03,Faisalabad,Punjab,Wholesale,Soap Pack,Personal Care,6,150,765,90,225,15,Card,Regular,Online
+2981,2025-01-13,Karachi,Sindh,Wholesale,Soap Pack,Personal Care,10,150,1275,90,375,15,Cash,Regular,Online
+2982,2025-02-16,Quetta,Balochistan,Retail,Mobile Charger,Electronics,7,800,4760,500,1260,15,Bank Transfer,Business,Offline
+2983,2025-01-01,Peshawar,KPK,Wholesale,Flour 10kg,Grocery,20,1100,19800,800,3800,10,Cash,Regular,Online
+2984,2025-03-23,Faisalabad,Punjab,Wholesale,Shampoo,Personal Care,13,450,4972,300,1072,15,Bank Transfer,Business,Online
+2985,2025-02-03,Karachi,Sindh,Retail,Mobile Charger,Electronics,17,800,12920,500,4420,5,Bank Transfer,Business,Online
+2986,2025-03-14,Islamabad,Capital,Online,Headphones,Electronics,15,2500,31875,1800,4875,15,Bank Transfer,Business,Online
+2987,2025-03-30,Islamabad,Capital,Wholesale,Laptop Stand,Electronics,13,3000,37050,2200,8450,5,Cash,Business,Online
+2988,2025-01-19,Quetta,Balochistan,Retail,Shampoo,Personal Care,4,450,1800,300,600,0,Card,Business,Online
+2989,2025-01-14,Islamabad,Capital,Wholesale,Mobile Charger,Electronics,17,800,12240,500,3740,10,Cash,Regular,Offline
+2990,2025-02-27,Quetta,Balochistan,Wholesale,Flour 10kg,Grocery,5,1100,4950,800,950,10,Card,Regular,Offline
+2991,2025-03-20,Quetta,Balochistan,Retail,Shampoo,Personal Care,2,450,900,300,300,0,Card,Regular,Offline
+2992,2025-01-16,Peshawar,KPK,Wholesale,Rice 5kg,Grocery,10,1200,10200,900,1200,15,Bank Transfer,Business,Online
+2993,2025-01-04,Quetta,Balochistan,Wholesale,Soap Pack,Personal Care,5,150,750,90,300,0,Card,Business,Offline
+2994,2025-01-30,Islamabad,Capital,Online,Rice 5kg,Grocery,5,1200,5700,900,1200,5,Card,Regular,Offline
+2995,2025-03-10,Peshawar,KPK,Retail,Sugar 5kg,Grocery,2,900,1710,650,410,5,Card,Business,Offline
+2996,2025-03-04,Faisalabad,Punjab,Retail,Cooking Oil 5L,Grocery,14,2500,33250,1900,6650,5,Card,Business,Online
+2997,2025-03-25,Karachi,Sindh,Wholesale,Rice 5kg,Grocery,10,1200,10800,900,1800,10,Cash,Regular,Offline
+2998,2025-01-08,Peshawar,KPK,Online,Flour 10kg,Grocery,2,1100,1980,800,380,10,Card,Business,Online
+2999,2025-02-04,Quetta,Balochistan,Online,Headphones,Electronics,1,2500,2250,1800,450,10,Bank Transfer,Regular,Offline
