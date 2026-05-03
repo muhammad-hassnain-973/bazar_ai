@@ -1,4 +1,4 @@
-# 🇵🇒 BazaarAI — Agentic Sales Data Analyst
+# PK BazarAI — Agentic Sales Data Analyst
 
 **AI-powered business analytics for Pakistani businesses**
 
