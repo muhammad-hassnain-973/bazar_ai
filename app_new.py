@@ -1,3 +1,4 @@
+# main file
 import streamlit as st
 import pandas as pd
 import os
@@ -25,6 +26,8 @@ try:
 except Exception:
     pass
 
+
+
 # ════════════════════════════════════════════════════════════════════════════
 # PAGE CONFIG & STYLING
 # ════════════════════════════════════════════════════════════════════════════
@@ -36,75 +39,59 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-# Dark green theme styling
-st.markdown("""
+"""
+Replace theme CSS with theme-aware styling using Streamlit's theme.base option.
+"""
+try:
+    theme_base = st.get_option("theme.base")
+except Exception:
+    theme_base = "dark"
+
+# Choose colors based on Streamlit theme base
+if theme_base == "light":
+    PRIMARY = "#0f5132"  # darker green for contrast on light
+    BG = "#ffffff"
+    TEXT = "#0b2f1a"
+    ACCENT = "#198754"
+else:
+    PRIMARY = "#1e7145"
+    BG = "rgba(10, 14, 39, 0.95)"
+    TEXT = "#e8f0f5"
+    ACCENT = "#16a34a"
+
+st.markdown(f"""
 <style>
-    /* Custom Colors */
-    :root {
-        --primary-green: #1e7145;
-        --dark-bg: #0a0e27;
-        --secondary-bg: #16213e;
-        --text-light: #e8f0f5;
-    }
-    
-    /* Main content styling */
-    .main {
-        background-color: #0a0e27;
-    }
-    
-    /* Metric cards */
-    [data-testid="metric-container"] {
-        background-color: rgba(30, 113, 69, 0.1);
-        border-left: 4px solid #1e7145;
-        padding: 16px;
+    [data-testid="metric-container"] {{
+        background-color: rgba(30, 113, 69, 0.08);
+        border-left: 4px solid {PRIMARY};
+        padding: 12px;
         border-radius: 8px;
-    }
-    
-    /* Tab styling */
-    .stTabs [data-baseweb="tab-list"] {
-        gap: 8px;
-    }
-    
-    .stTabs [data-baseweb="tab"] {
-        background-color: rgba(30, 113, 69, 0.1);
+    }}
+    .stTabs [data-baseweb="tab"] {{
+        background-color: rgba(30, 113, 69, 0.06);
         border-radius: 6px;
-        padding: 10px 16px;
-    }
-    
-    .stTabs [aria-selected="true"] {
-        background-color: #1e7145;
-    }
-    
-    /* Sidebar styling */
-    [data-testid="stSidebar"] {
-        background-color: #0a0e27;
-    }
-    
-    /* Button styling */
-    .stButton > button {
-        background-color: #1e7145;
-        color: white;
+        padding: 8px 14px;
+    }}
+    .stTabs [aria-selected="true"] {{
+        background-color: {PRIMARY};
+        color: {TEXT};
+    }}
+    .stButton > button {{
+        background-color: {PRIMARY};
+        color: {TEXT};
         border-radius: 6px;
         border: none;
-        padding: 10px 20px;
+        padding: 8px 16px;
         font-weight: 600;
-    }
-    
-    .stButton > button:hover {
-        background-color: #155a35;
-        border: none;
-    }
-    
-    /* Success/info boxes */
-    .stSuccess, .stInfo {
-        border-left: 4px solid #1e7145;
+    }}
+    .stButton > button:hover {{
+        background-color: {ACCENT};
+    }}
+    .stSuccess, .stInfo {{
+        border-left: 4px solid {PRIMARY};
         border-radius: 6px;
-    }
-    
-    /* Divider */
-    hr {
-        border-color: rgba(30, 113, 69, 0.3);
-    }
+    }}
+    hr {{ border-color: rgba(30, 113, 69, 0.25); }}
 </style>
 """, unsafe_allow_html=True)
 
@@ -198,6 +185,47 @@ streamlit run app_new.py
     st.divider()
     st.caption("**Powered by:**\nGroq LLaMA 3.3 + FastEmbed + FAISS")
 
+    # Deployment diagnostics (help debug Streamlit Cloud vs local differences)
+    with st.expander("Deployment Diagnostics", expanded=False):
+        try:
+            st.write("**Runtime info**")
+            st.write(f"Python: {platform.python_version()}")
+            try:
+                import streamlit as _st
+                st.write(f"Streamlit: {_st.__version__}")
+            except Exception:
+                st.write("Streamlit: (not importable)")
+            for pkg in ("plotly", "pandas", "numpy", "groq"):
+                try:
+                    ver = importlib_metadata.version(pkg)
+                except Exception:
+                    try:
+                        mod = importlib.import_module(pkg)
+                        ver = getattr(mod, "__version__", "unknown")
+                    except Exception:
+                        ver = "not installed"
+                st.write(f"{pkg}: {ver}")
+
+            st.write("**Environment**")
+            st.write(f"Working dir: {os.getcwd()}")
+            st.write(f"Entry file: {os.path.basename(__file__)}")
+            env_key = os.environ.get("GROQ_API_KEY") or (st.secrets.get("GROQ_API_KEY") if hasattr(st, "secrets") else None)
+            st.write(f"GROQ_API_KEY set: {'yes' if env_key else 'no'}")
+
+            # show top of requirements.txt if present
+            req_path = os.path.join(os.path.dirname(__file__), "requirements.txt")
+            if os.path.exists(req_path):
+                st.write("**requirements.txt (top lines)**")
+                with open(req_path, "r", encoding="utf-8") as rf:
+                    for i, line in enumerate(rf):
+                        if i >= 10:
+                            break
+                        st.text(line.strip())
+            else:
+                st.write("requirements.txt: not found in repo root")
+        except Exception as e:
+            st.write(f"Diagnostics error: {e}")
+
 # ════════════════════════════════════════════════════════════════════════════
 # ANALYSIS PIPELINE
 # ════════════════════════════════════════════════════════════════════════════
@@ -218,6 +246,43 @@ if analyze_btn and uploaded_file is not None:
                     st.session_state.column_map = auto_map
 
                 column_map = st.session_state.column_map
+
+                # If no date mapped, attempt automatic detection by sampling parse success
+                if not column_map.get("date"):
+                    try:
+                        import pandas as _pd
+                        best_col = None
+                        best_ratio = 0.0
+                        for col in df.columns:
+                            try:
+                                parsed = _pd.to_datetime(df[col], errors="coerce")
+                                ratio = float(parsed.notna().mean())
+                                # try dayfirst if low ratio
+                                if ratio < 0.2:
+                                    parsed2 = _pd.to_datetime(df[col], dayfirst=True, errors="coerce")
+                                    ratio2 = float(parsed2.notna().mean())
+                                    if ratio2 > ratio:
+                                        ratio = ratio2
+                                # treat Excel serial numbers
+                                if ratio < 0.2 and _pd.api.types.is_numeric_dtype(df[col]):
+                                    try:
+                                        parsed3 = _pd.to_datetime(df[col], unit="d", origin="1899-12-30", errors="coerce")
+                                        ratio3 = float(parsed3.notna().mean())
+                                        if ratio3 > ratio:
+                                            ratio = ratio3
+                                    except Exception:
+                                        pass
+
+                                if ratio > best_ratio:
+                                    best_ratio = ratio
+                                    best_col = col
+                            except Exception:
+                                continue
+                        if best_col and best_ratio >= 0.5:
+                            column_map["date"] = best_col
+                            st.info(f"Auto-detected date column: **{best_col}** (parsed {best_ratio*100:.0f}% values)")
+                    except Exception:
+                        pass
 
                 # Analysis
                 kpis = compute_kpis(df, column_map)
@@ -275,6 +340,18 @@ if analyze_btn and uploaded_file is not None:
                             st.info("Tip: common formats — YYYY-MM-DD, DD/MM/YYYY. For Excel exports, ensure dates are real dates, not text.")
                 else:
                     st.warning("⏰ No date column detected. Trend analysis will be unavailable.")
+
+                # Show a small parsing preview for debugging
+                try:
+                    if column_map.get("date") and column_map.get("revenue"):
+                        with st.expander("Parsing Preview (first 10 rows)", expanded=False):
+                            import pandas as _pd
+                            preview = df[[column_map["date"], column_map["revenue"]]].copy()
+                            preview["_parsed_date"] = _pd.to_datetime(preview[column_map["date"]], errors="coerce")
+                            preview["_revenue_num"] = _pd.to_numeric(preview[column_map["revenue"]], errors="coerce")
+                            st.dataframe(preview.head(10))
+                except Exception:
+                    pass
 
             except Exception as e:
                 st.error(f"❌ Error processing file: {str(e)}")
