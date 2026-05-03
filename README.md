@@ -39,7 +39,7 @@ Transform your sales data into actionable insights using Groq's LLaMA 3.3 LLM, F
 
 ```bash
 # Clone repository
-git clone https://github.com/yourusername/bazar_ai.git
+git clone https://github.com/muhammad-hassnain-973/bazar_ai.git
 cd bazar_ai
 
 # Create virtual environment
@@ -171,7 +171,6 @@ GROQ_API_KEY=your_api_key_here
 | Upload fails | Ensure CSV/Excel format, < 50 MB file size |
 | Slow analysis | Process fewer rows or columns |
 
-See [DEPLOYMENT.md](DEPLOYMENT.md) for more help.
 
 ---
 
